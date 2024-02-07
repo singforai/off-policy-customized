@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: offpolicy
+Version: 0.1.0
+Summary: off-policy algorithms of marlbenchmark
+Keywords: multi-agent reinforcement learning platform pytorch
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # Off-Policy Multi-Agent Reinforcement Learning (MARL) Algorithms
 
 This repository contains implementations of various off-policy multi-agent reinforcement learning (MARL) algorithms.

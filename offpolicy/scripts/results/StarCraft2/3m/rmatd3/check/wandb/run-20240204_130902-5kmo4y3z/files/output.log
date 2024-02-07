@@ -1,0 +1,32 @@
+60
+[48]
+warm up...
+/home/uosai/바탕화면/off-policy/offpolicy/envs/starcraft2/StarCraft2_Env.py:352: FutureWarning: In the future `np.bool` will be defined as the corresponding NumPy scalar.
+  for row in vals], dtype=np.bool))
+Traceback (most recent call last):
+  File "/home/uosai/바탕화면/off-policy/offpolicy/scripts/train/train_smac.py", line 191, in <module>
+    main(sys.argv[1:])
+  File "/home/uosai/바탕화면/off-policy/offpolicy/scripts/train/train_smac.py", line 175, in main
+    runner = Runner(config=config)
+  File "/home/uosai/바탕화면/off-policy/offpolicy/runner/rnn/smac_runner.py", line 13, in __init__
+    self.warmup(num_warmup_episodes)
+  File "/home/uosai/바탕화면/off-policy/offpolicy/runner/rnn/base_runner.py", line 221, in warmup
+    env_info = self.collecter(explore=True, training_episode=False, warmup=True)
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/uosai/바탕화면/off-policy/offpolicy/runner/rnn/smac_runner.py", line 57, in collect_rollout
+    obs, share_obs, avail_acts = env.reset()
+  File "/home/uosai/바탕화면/off-policy/offpolicy/envs/env_wrappers.py", line 461, in reset
+    results = [env.reset() for env in self.envs]
+  File "/home/uosai/바탕화면/off-policy/offpolicy/envs/env_wrappers.py", line 461, in <listcomp>
+    results = [env.reset() for env in self.envs]
+  File "/home/uosai/바탕화면/off-policy/offpolicy/envs/starcraft2/StarCraft2_Env.py", line 369, in reset
+    self._launch()
+  File "/home/uosai/바탕화면/off-policy/offpolicy/envs/starcraft2/StarCraft2_Env.py", line 352, in _launch
+    for row in vals], dtype=np.bool))
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/numpy/__init__.py", line 324, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations

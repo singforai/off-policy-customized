@@ -1,0 +1,76 @@
+60
+[48]
+warm up...
+warmup average episode rewards: 1.3848068714141846
+ Env StarCraft2 Map 3m Algo rmatd3 Exp check runs total num timesteps 906/2000000, FPS 118.
+ Env StarCraft2 Map 3m Algo rmatd3 Exp check runs total num timesteps 1014/2000000, FPS 114.
+average_episode_rewards is 1.5616438
+win_rate is 0.0
+ Env StarCraft2 Map 3m Algo rmatd3 Exp check runs total num timesteps 2028/2000000, FPS 123.
+average_episode_rewards is 1.5374697
+win_rate is 0.0
+ Env StarCraft2 Map 3m Algo rmatd3 Exp check runs total num timesteps 3028/2000000, FPS 122.
+average_episode_rewards is 1.6092286
+win_rate is 0.0
+ Env StarCraft2 Map 3m Algo rmatd3 Exp check runs total num timesteps 4037/2000000, FPS 123.
+average_episode_rewards is 1.3506109
+win_rate is 0.0
+ Env StarCraft2 Map 3m Algo rmatd3 Exp check runs total num timesteps 5044/2000000, FPS 124.
+average_episode_rewards is 1.4483525
+win_rate is 0.0
+ Env StarCraft2 Map 3m Algo rmatd3 Exp check runs total num timesteps 6097/2000000, FPS 126.
+average_episode_rewards is 1.3634166
+win_rate is 0.0
+ Env StarCraft2 Map 3m Algo rmatd3 Exp check runs total num timesteps 7098/2000000, FPS 128.
+average_episode_rewards is 1.5410959
+win_rate is 0.0
+ Env StarCraft2 Map 3m Algo rmatd3 Exp check runs total num timesteps 8130/2000000, FPS 130.
+average_episode_rewards is 1.4170995
+win_rate is 0.0
+ Env StarCraft2 Map 3m Algo rmatd3 Exp check runs total num timesteps 9154/2000000, FPS 132.
+average_episode_rewards is 1.2712327
+win_rate is 0.0
+Traceback (most recent call last):
+  File "/home/uosai/바탕화면/off-policy/offpolicy/scripts/train/train_smac.py", line 191, in <module>
+    main(sys.argv[1:])
+  File "/home/uosai/바탕화면/off-policy/offpolicy/scripts/train/train_smac.py", line 177, in main
+    total_num_steps = runner.run()
+  File "/home/uosai/바탕화면/off-policy/offpolicy/runner/rnn/base_runner.py", line 190, in run
+    self.train()
+  File "/home/uosai/바탕화면/off-policy/offpolicy/runner/rnn/base_runner.py", line 242, in batch_train
+    train_info, new_priorities, idxes = update_method(p_id, sample)
+  File "/home/uosai/바탕화면/off-policy/offpolicy/algorithms/r_maddpg/r_maddpg.py", line 176, in shared_train_policy_on_batch
+    next_Q_ts, _ = update_policy.target_critic(cent_nobs_sequence[t],
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/uosai/바탕화면/off-policy/offpolicy/algorithms/r_maddpg/algorithm/r_actor_critic.py", line 123, in forward
+    rnn_outs, h_final = self.rnn(inp, rnn_states)
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/uosai/바탕화면/off-policy/offpolicy/algorithms/utils/rnn.py", line 43, in forward
+    x = self.mlp(x)
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/uosai/바탕화면/off-policy/offpolicy/algorithms/utils/mlp.py", line 28, in forward
+    x = self.fc2[i](x)
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/nn/modules/container.py", line 215, in forward
+    input = module(input)
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/nn/modules/normalization.py", line 196, in forward
+    return F.layer_norm(
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/nn/functional.py", line 2543, in layer_norm
+    return torch.layer_norm(input, normalized_shape, weight, bias, eps, torch.backends.cudnn.enabled)
+KeyboardInterrupt

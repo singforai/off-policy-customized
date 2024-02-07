@@ -1,0 +1,282 @@
+wandb_version: 1
+
+algorithm_name:
+  desc: null
+  value: rmatd3
+experiment_name:
+  desc: null
+  value: check
+seed:
+  desc: null
+  value: 1
+cuda:
+  desc: null
+  value: true
+cuda_deterministic:
+  desc: null
+  value: true
+n_training_threads:
+  desc: null
+  value: 1
+n_rollout_threads:
+  desc: null
+  value: 1
+n_eval_rollout_threads:
+  desc: null
+  value: 1
+num_env_steps:
+  desc: null
+  value: 2000000
+use_wandb:
+  desc: null
+  value: true
+user_name:
+  desc: null
+  value: zoeyuchao
+env_name:
+  desc: null
+  value: StarCraft2
+use_obs_instead_of_state:
+  desc: null
+  value: false
+episode_length:
+  desc: null
+  value: 80
+buffer_size:
+  desc: null
+  value: 5000
+use_reward_normalization:
+  desc: null
+  value: false
+use_popart:
+  desc: null
+  value: false
+popart_update_interval_step:
+  desc: null
+  value: 2
+use_per:
+  desc: null
+  value: false
+per_nu:
+  desc: null
+  value: 0.9
+per_alpha:
+  desc: null
+  value: 0.6
+per_eps:
+  desc: null
+  value: 1.0e-06
+per_beta_start:
+  desc: null
+  value: 0.4
+use_centralized_Q:
+  desc: null
+  value: true
+share_policy:
+  desc: null
+  value: true
+hidden_size:
+  desc: null
+  value: 64
+layer_N:
+  desc: null
+  value: 1
+use_ReLU:
+  desc: null
+  value: true
+use_feature_normalization:
+  desc: null
+  value: true
+use_orthogonal:
+  desc: null
+  value: true
+gain:
+  desc: null
+  value: 0.01
+use_conv1d:
+  desc: null
+  value: false
+stacked_frames:
+  desc: null
+  value: 1
+prev_act_inp:
+  desc: null
+  value: false
+use_rnn_layer:
+  desc: null
+  value: true
+use_naive_recurrent_policy:
+  desc: null
+  value: true
+recurrent_N:
+  desc: null
+  value: 1
+data_chunk_length:
+  desc: null
+  value: 80
+burn_in_time:
+  desc: null
+  value: 0
+attn:
+  desc: null
+  value: false
+attn_N:
+  desc: null
+  value: 1
+attn_size:
+  desc: null
+  value: 64
+attn_heads:
+  desc: null
+  value: 4
+dropout:
+  desc: null
+  value: 0.0
+use_average_pool:
+  desc: null
+  value: true
+use_cat_self:
+  desc: null
+  value: true
+lr:
+  desc: null
+  value: 0.0005
+opti_eps:
+  desc: null
+  value: 1.0e-05
+weight_decay:
+  desc: null
+  value: 0
+batch_size:
+  desc: null
+  value: 32
+gamma:
+  desc: null
+  value: 0.99
+use_max_grad_norm:
+  desc: null
+  value: true
+max_grad_norm:
+  desc: null
+  value: 10.0
+use_huber_loss:
+  desc: null
+  value: false
+huber_delta:
+  desc: null
+  value: 10.0
+use_soft_update:
+  desc: null
+  value: true
+tau:
+  desc: null
+  value: 0.005
+hard_update_interval_episode:
+  desc: null
+  value: 200
+hard_update_interval:
+  desc: null
+  value: 200
+target_action_noise_std:
+  desc: null
+  value: 0.2
+alpha:
+  desc: null
+  value: 1.0
+target_entropy_coef:
+  desc: null
+  value: 0.5
+automatic_entropy_tune:
+  desc: null
+  value: true
+use_double_q:
+  desc: null
+  value: true
+hypernet_layers:
+  desc: null
+  value: 2
+mixer_hidden_dim:
+  desc: null
+  value: 32
+hypernet_hidden_dim:
+  desc: null
+  value: 64
+num_random_episodes:
+  desc: null
+  value: 5
+epsilon_start:
+  desc: null
+  value: 1.0
+epsilon_finish:
+  desc: null
+  value: 0.05
+epsilon_anneal_time:
+  desc: null
+  value: 50000
+act_noise_std:
+  desc: null
+  value: 0.1
+actor_train_interval_step:
+  desc: null
+  value: 2
+train_interval_episode:
+  desc: null
+  value: 1
+train_interval:
+  desc: null
+  value: 100
+use_value_active_masks:
+  desc: null
+  value: false
+use_eval:
+  desc: null
+  value: true
+eval_interval:
+  desc: null
+  value: 10000
+num_eval_episodes:
+  desc: null
+  value: 32
+save_interval:
+  desc: null
+  value: 100000
+log_interval:
+  desc: null
+  value: 1000
+model_dir:
+  desc: null
+  value: null
+map_name:
+  desc: null
+  value: 3m
+use_available_actions:
+  desc: null
+  value: true
+use_same_share_obs:
+  desc: null
+  value: true
+use_global_all_local_state:
+  desc: null
+  value: false
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.18
+    cli_version: 0.16.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1707019469.290641
+    t:
+      1:
+      - 1
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.9.18
+      5: 0.16.2
+      8:
+      - 5
+      13: linux-x86_64

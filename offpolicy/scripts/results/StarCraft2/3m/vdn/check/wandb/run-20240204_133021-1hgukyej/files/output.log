@@ -1,0 +1,19 @@
+60
+[48]
+double Q learning will be used
+warm up...
+Traceback (most recent call last):
+  File "/home/uosai/바탕화면/off-policy/offpolicy/scripts/train/train_smac.py", line 191, in <module>
+    main(sys.argv[1:])
+  File "/home/uosai/바탕화면/off-policy/offpolicy/scripts/train/train_smac.py", line 177, in main
+    total_num_steps = runner.run()
+  File "/home/uosai/바탕화면/off-policy/offpolicy/runner/rnn/base_runner.py", line 190, in run
+    self.train()
+  File "/home/uosai/바탕화면/off-policy/offpolicy/runner/rnn/base_runner.py", line 272, in batch_train_q
+    train_info, new_priorities, idxes = self.trainer.train_policy_on_batch(sample)
+  File "/home/uosai/바탕화면/off-policy/offpolicy/algorithms/qmix/qmix.py", line 165, in train_policy_on_batch
+    Q_tot_target_seq = rewards + (1 - dones_env_batch) * self.args.gamma * next_step_Q_tot_seq
+RuntimeError: The size of tensor a (32) must match the size of tensor b (1920) at non-singleton dimension 1
+warmup average episode rewards: 1.454545497894287
+ Env StarCraft2 Map 3m Algo vdn Exp check runs total num timesteps 902/2000000, FPS 119.
+torch.Size([60, 32, 1])
