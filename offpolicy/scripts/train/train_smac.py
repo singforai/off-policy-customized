@@ -198,6 +198,7 @@ def main(args):
     while total_num_steps < all_args.num_env_steps:
         total_num_steps = runner.run()
 
+
     env.close()
     if all_args.use_eval and (eval_env is not env):
         eval_env.close()

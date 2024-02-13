@@ -93,7 +93,7 @@ class StarCraft2Env(MultiAgentEnv):
         reward_negative_scale=0.5,
         reward_scale=True,
         reward_scale_rate=20,
-        replay_dir="",
+        replay_dir="/home/uosai/바탕화면/off-policy/offpolicy/scripts/results/replays",
         replay_prefix="",
         window_size_x=1920,
         window_size_y=1200,
@@ -191,12 +191,16 @@ class StarCraft2Env(MultiAgentEnv):
             Whether or not to use a non-learning heuristic AI (default False).
         heuristic_rest: bool, optional
             At any moment, restrict the actions of the heuristic AI to be
-            chosen from actions available to RL agents (default is False).
+            chosen from actself.train_number ailable to RL agents (default is False).
             Ignored if heuristic_ai == False.
         debug: bool, optional
             Log messages about observations, state, actions and rewards for
             debugging purposes (default is False).
         """
+        #save replay
+        self.save_interval = args.save_interval
+        self.train_number = 0
+
         # Map arguments
         self.map_name = args.map_name
         map_params = get_map_params(self.map_name)
@@ -416,6 +420,7 @@ class StarCraft2Env(MultiAgentEnv):
         self._launch()
         self.force_restarts += 1
 
+
     def step(self, actions):
         """A single environment step. Returns reward, terminated, info."""
         terminated = False
@@ -539,6 +544,11 @@ class StarCraft2Env(MultiAgentEnv):
             reward /= self.max_reward / self.reward_scale_rate
 
         rewards = [[reward]]*self.n_agents
+
+        # replay save
+        self.train_number += 1
+        if self.train_number % self.save_interval == 0:
+            self.save_replay()
 
         return self.get_obs(), self.get_state(), rewards, dones, infos, available_actions
 

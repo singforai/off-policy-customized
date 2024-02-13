@@ -2,6 +2,7 @@ import numpy as np
 import torch
 import time
 from offpolicy.runner.rnn.base_runner import RecRunner
+from offpolicy.envs.starcraft2.StarCraft2_Env import StarCraft2Env # Replay를 남기기 위한 import: line 164
 
 class SMACRunner(RecRunner):
     def __init__(self, config):
@@ -160,6 +161,12 @@ class SMACRunner(RecRunner):
                       self.total_env_steps,
                       self.num_env_steps,
                       int(self.total_env_steps / (end - self.start))))
+
+        # save_replay_command = StarCraft2Env(self.env)
+        # print("==========================================")
+        # save_replay_command.save_replay()
+        # print("==========================================")
+
         for p_id, train_info in zip(self.policy_ids, self.train_infos):
             self.log_train(p_id, train_info)
 
