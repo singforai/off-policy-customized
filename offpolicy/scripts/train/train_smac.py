@@ -173,9 +173,9 @@ def main(args):
     # choose algo
     if all_args.algorithm_name in ["rmatd3", "rmaddpg", "rmasac", "qmix", "vdn"]:
         from offpolicy.runner.rnn.smac_runner import SMACRunner as Runner
-        assert all_args.n_rollout_threads == 1, ("only support 1 env in recurrent version.")
+        assert all_args.n_rollout_threads == 1, ("only support 1 env in recurrent version.") #assert는 특정 조건을 만족하는지 확인한다. 
         eval_env = make_train_env(all_args)
-    elif all_args.algorithm_name in ["matd3", "maddpg", "masac", "mqmix", "mvdn"]:
+    elif all_args.algorithm_name in ["matd3", "maddpg", "masac", "mqmix", "mvdn"]: # train과 test시의 random seed를 다르게 설정할 것인가?
         from offpolicy.runner.mlp.smac_runner import SMACRunner as Runner
         eval_env = make_eval_env(all_args)
     else:

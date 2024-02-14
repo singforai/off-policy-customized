@@ -835,7 +835,7 @@ class StarCraft2Env(MultiAgentEnv):
 
     def save_replay(self):
         """Save a replay."""
-        prefix = self.replay_prefix or self.map_name
+        prefix = self.replay_prefix or f"{self.map_name}_{self.train_number}"  
         replay_dir = self.replay_dir or ""
         replay_path = self._run_config.save_replay(
             self._controller.save_replay(), replay_dir=replay_dir, prefix=prefix)
