@@ -190,4 +190,20 @@ def get_config():
 
     # pretained parameters
     parser.add_argument("--model_dir", type=str, default=None)
+
+
+    parser.add_argument('--map_name', type=str, default='3m',
+                        help="Which smac map to run on")
+    parser.add_argument('--use_available_actions', action='store_false',
+                        default=True, help="Whether to use available actions")
+    parser.add_argument('--use_same_share_obs', action='store_false',
+                        default=True, help="Whether to use available actions")
+    parser.add_argument('--use_global_all_local_state', action='store_true',
+                        default=False, help="Whether to use available actions")
+    # save replay 
+    parser.add_argument('--save_replay', action='store_true',
+                        default=False, help="select to save a replay")
+    parser.add_argument('--save_replay_interval', type=int,
+                        default=100000, help="save term of replay")
+
     return parser

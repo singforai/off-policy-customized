@@ -9,7 +9,7 @@ class SMACRunner(RecRunner):
         """Runner class for the StarcraftII environment (SMAC). See parent class for more information."""
         super(SMACRunner, self).__init__(config)
         # fill replay buffer with random actions
-        num_warmup_episodes = max((self.batch_size, self.args.num_random_episodes))
+        num_warmup_episodes = max((self.batch_size, self.args.num_random_episodes)) #self.args.num_random_episodes: 5
         self.start = time.time()
         self.warmup(num_warmup_episodes)
         end = time.time()

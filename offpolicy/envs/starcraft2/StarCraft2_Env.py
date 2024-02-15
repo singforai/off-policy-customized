@@ -198,7 +198,8 @@ class StarCraft2Env(MultiAgentEnv):
             debugging purposes (default is False).
         """
         #save replay
-        self.save_interval = args.save_interval
+        self.save_replays = args.save_replay
+        self.save_replay_interval = args.save_replay_interval
         self.train_number = 0
 
         # Map arguments
@@ -356,7 +357,7 @@ class StarCraft2Env(MultiAgentEnv):
                 for row in vals], dtype=bool))
         else:
             self.pathing_grid = np.invert(np.flip(np.transpose(np.array(
-                list(map_info.pathing_grid.data), dtype=np.bool).reshape(
+                list(map_info.pathing_grid.data), dtype=bool).reshape( #np.bool => bool
                     self.map_x, self.map_y)), axis=1))
 
         self.terrain_height = np.flip(
@@ -546,9 +547,10 @@ class StarCraft2Env(MultiAgentEnv):
         rewards = [[reward]]*self.n_agents
 
         # replay save
-        self.train_number += 1
-        if self.train_number % self.save_interval == 0:
-            self.save_replay()
+        if self.save_replays == True:
+            self.train_number += 1
+            if self.train_number % self.save_replay_interval == 0:
+                self.save_replay()
 
         return self.get_obs(), self.get_state(), rewards, dones, infos, available_actions
 

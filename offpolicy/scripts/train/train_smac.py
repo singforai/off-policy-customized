@@ -17,19 +17,19 @@ def make_train_env(all_args):
     def get_env_fn(rank):
         def init_env():
             if all_args.env_name == "StarCraft2":
-                env = StarCraft2Env(all_args) #env setting에 필요한 모든 argumen를 정의
+                env = StarCraft2Env(all_args) #env setting에 필요한 모든 argument를 변수 형태로 정의
             else:
                 print("Can not support the " +
                       all_args.env_name + "environment.")
                 raise NotImplementedError
-            env.seed(all_args.seed + rank * 1000)
+            env.seed(all_args.seed + rank * 1000) # seed: 1
             return env
         '''
         init_env()가 아닌 init_env는 closure(함수가 정의된 시점에서의 환경(context)를 기억하고 이 환경에 있는 변수에 접근 가능한 함수)로써 rank/all_args값을 기억하고 있으며 이를 사용하여 함수를 객체로 다루면, 해당 함수를 다른 함수의 인자로 전달하거나 반환값으로 사용할 수 있다. 
         '''
         return init_env
     """
-    rollout은 에이전트가 현재 상태에서 행동을 선택하고, 환경과 상호작용하여 얻은 다음 상태 및 보상을 기반으로 학습을 진>행하는 과정이다. rollout_threads 하이퍼파라미터는 동시에 실행되는 롤아웃 스레드의 수를 지정하는 역할을 하는 것으로 추정>된다.
+    rollout은 에이전트가 현재 상태에서 행동을 선택하고, 환경과 상호작용하여 얻은 다음 상태 및 보상을 기반으로 학습을 진행하는 과정이다. rollout_threads 하이퍼파라미터는 동시에 실행되는 롤아웃 스레드의 수를 지정하는 역할을 하는 것으로 추정>된다.
     """
     if all_args.n_rollout_threads == 1:
         return ShareDummyVecEnv([get_env_fn(0)]) #get_env_fn에서 return한 env를 ShareDummyVecEnv에 입력
@@ -56,15 +56,6 @@ def make_eval_env(all_args):
 
 
 def parse_args(args, parser):
-    parser.add_argument('--map_name', type=str, default='3m',
-                        help="Which smac map to run on")
-    parser.add_argument('--use_available_actions', action='store_false',
-                        default=True, help="Whether to use available actions")
-    parser.add_argument('--use_same_share_obs', action='store_false',
-                        default=True, help="Whether to use available actions")
-    parser.add_argument('--use_global_all_local_state', action='store_true',
-                        default=False, help="Whether to use available actions")
-    
     '''
     parse_known_args 함수는 args에 입력된 변수값들 중에 이미 parser에 존재하는 변수들의 값은 
     첫번째 튜플에 저장되며 저장되어 있지 않은 변수의 값은 두 번째 튜플에 저장된다. 
@@ -79,8 +70,8 @@ def parse_args(args, parser):
 
 
 def main(args):
-    parser = get_config()
-    all_args = parse_args(args, parser)
+    parser = get_config() #config.py에 저장된 모든 argparse 변수를 선언한다. 
+    all_args = parse_args(args, parser) 
 
     # cuda and # threads
     if all_args.cuda and torch.cuda.is_available():
@@ -103,10 +94,10 @@ def main(args):
     run_dir = Path(os.path.split(os.path.dirname(os.path.abspath(__file__)))[
                    0] + "/results") / all_args.env_name / all_args.map_name / all_args.algorithm_name / all_args.experiment_name
     '''
-    run_dir: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/check
+    run_dir: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/check: 여러 실험 정보를 저장할 곳을 찾아야 함
     '''
     if not run_dir.exists():
-        os.makedirs(str(run_dir))
+        os.makedirs(str(run_dir)) # 경로가 아직 생성되지 않은 상황이면 makdirs로 경로 자동 생성 
 
     if all_args.use_wandb:
         # init wandb
@@ -147,8 +138,8 @@ def main(args):
     num_agents = get_map_params(all_args.map_name)["n_agents"] # n_agents:3
 
     # create policies and mapping fn
-    if all_args.share_policy:
-        print(env.share_observation_space[0])
+    if all_args.share_policy: #default: True 
+        print(env.share_observation_space[0]) #env.share_observation_space[0]: [48]
         policy_info = {
             'policy_0': {"cent_obs_dim": get_dim_from_space(env.share_observation_space[0]),
                          "cent_act_dim": get_cent_act_dim(env.action_space),
@@ -194,10 +185,9 @@ def main(args):
               "use_available_actions": all_args.use_available_actions}
 
     total_num_steps = 0
-    runner = Runner(config=config)
+    runner = Runner(config=config) #Env StarCraft2 Map 3m Algo vdn Exp check runs total num timesteps 902/1000000, FPS 118는 여기서 출력함
     while total_num_steps < all_args.num_env_steps:
-        total_num_steps = runner.run()
-
+        total_num_steps = runner.run() #base_runner에서 run함수를 호출 
 
     env.close()
     if all_args.use_eval and (eval_env is not env):
