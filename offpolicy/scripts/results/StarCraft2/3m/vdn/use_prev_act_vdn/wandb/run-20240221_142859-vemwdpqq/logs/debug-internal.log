@@ -1,0 +1,492 @@
+2024-02-21 14:28:59,749 INFO    StreamThr :62357 [internal.py:wandb_internal():86] W&B internal server running at pid: 62357, started at: 2024-02-21 14:28:59.749356
+2024-02-21 14:28:59,751 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status
+2024-02-21 14:28:59,754 INFO    WriterThread:62357 [datastore.py:open_for_write():87] open: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/run-vemwdpqq.wandb
+2024-02-21 14:28:59,754 DEBUG   SenderThread:62357 [sender.py:send():382] send: header
+2024-02-21 14:28:59,771 DEBUG   SenderThread:62357 [sender.py:send():382] send: run
+2024-02-21 14:29:00,264 INFO    SenderThread:62357 [dir_watcher.py:__init__():211] watching files in: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files
+2024-02-21 14:29:00,264 INFO    SenderThread:62357 [sender.py:_start_run_threads():1136] run started: vemwdpqq with start time 1708493339.749279
+2024-02-21 14:29:00,273 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: check_version
+2024-02-21 14:29:00,273 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: check_version
+2024-02-21 14:29:00,321 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: run_start
+2024-02-21 14:29:00,333 DEBUG   HandlerThread:62357 [system_info.py:__init__():27] System info init
+2024-02-21 14:29:00,333 DEBUG   HandlerThread:62357 [system_info.py:__init__():42] System info init done
+2024-02-21 14:29:00,333 INFO    HandlerThread:62357 [system_monitor.py:start():194] Starting system monitor
+2024-02-21 14:29:00,333 INFO    SystemMonitor:62357 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-21 14:29:00,333 INFO    HandlerThread:62357 [system_monitor.py:probe():214] Collecting system info
+2024-02-21 14:29:00,333 INFO    SystemMonitor:62357 [interfaces.py:start():190] Started cpu monitoring
+2024-02-21 14:29:00,334 INFO    SystemMonitor:62357 [interfaces.py:start():190] Started disk monitoring
+2024-02-21 14:29:00,334 INFO    SystemMonitor:62357 [interfaces.py:start():190] Started gpu monitoring
+2024-02-21 14:29:00,335 INFO    SystemMonitor:62357 [interfaces.py:start():190] Started memory monitoring
+2024-02-21 14:29:00,335 INFO    SystemMonitor:62357 [interfaces.py:start():190] Started network monitoring
+2024-02-21 14:29:00,348 DEBUG   HandlerThread:62357 [system_info.py:probe():151] Probing system
+2024-02-21 14:29:00,354 DEBUG   HandlerThread:62357 [system_info.py:_probe_git():136] Probing git
+2024-02-21 14:29:00,367 DEBUG   HandlerThread:62357 [system_info.py:_probe_git():144] Probing git done
+2024-02-21 14:29:00,367 DEBUG   HandlerThread:62357 [system_info.py:probe():199] Probing system done
+2024-02-21 14:29:00,367 DEBUG   HandlerThread:62357 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-18-generic-x86_64-with-glibc2.35', 'python': '3.9.18', 'heartbeatAt': '2024-02-21T05:29:00.348245', 'startedAt': '2024-02-21T05:28:59.742511', 'docker': None, 'cuda': None, 'args': ('--save_replay', 'False', '--save_replay_interval', '100000', '--algorithm_name', 'vdn', '--num_env_steps', '100000', '--batch_size', '32', '--prev_act_inp', 'True', '--experiment_name', 'use_prev_act_vdn', '--use_wandb', 'True', '--save_interval', '10000'), 'state': 'running', 'program': '/home/uosai/바탕화면/off-policy/offpolicy/scripts/train/train_smac.py', 'codePathLocal': 'train_smac.py', 'codePath': 'offpolicy/scripts/train/train_smac.py', 'git': {'remote': 'https://github.com/singforai/off-policy-customized.git', 'commit': 'a829a3a5d1b94e547069e558b32f96d8c8097b1f'}, 'email': 'singfor7012@gmail.com', 'root': '/home/uosai/바탕화면/off-policy', 'host': 'uos-desktop', 'username': 'uosai', 'executable': '/home/uosai/바탕화면/miniconda3/envs/marl/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2803.123916666666, 'min': 2200.0, 'max': 3700.0}, 'cpu_freq_per_core': [{'current': 4823.122, 'min': 2200.0, 'max': 3700.0}, {'current': 3839.714, 'min': 2200.0, 'max': 3700.0}, {'current': 4380.162, 'min': 2200.0, 'max': 3700.0}, {'current': 4120.558, 'min': 2200.0, 'max': 3700.0}, {'current': 4819.829, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3553.846, 'min': 2200.0, 'max': 3700.0}, {'current': 3571.451, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 4770.113, 'min': 2200.0, 'max': 3700.0}, {'current': 3837.964, 'min': 2200.0, 'max': 3700.0}, {'current': 2846.648, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3700.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3582.509, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2800.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}], 'disk': {'/': {'total': 233.17998886108398, 'used': 154.8886833190918}}, 'gpu': 'NVIDIA GeForce RTX 3080', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3080', 'memory_total': 10737418240}, {'name': 'NVIDIA GeForce RTX 3080', 'memory_total': 10737418240}], 'memory': {'total': 62.70904541015625}}
+2024-02-21 14:29:00,367 INFO    HandlerThread:62357 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-21 14:29:00,367 INFO    HandlerThread:62357 [system_monitor.py:probe():227] Publishing system info
+2024-02-21 14:29:00,367 DEBUG   HandlerThread:62357 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-21 14:29:01,268 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_created():271] file/dir created: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/conda-environment.yaml
+2024-02-21 14:29:01,620 DEBUG   HandlerThread:62357 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-21 14:29:01,621 INFO    HandlerThread:62357 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-21 14:29:01,623 DEBUG   SenderThread:62357 [sender.py:send():382] send: files
+2024-02-21 14:29:01,623 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-21 14:29:01,627 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-21 14:29:01,628 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: python_packages
+2024-02-21 14:29:01,628 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 14:29:01,628 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 14:29:01,630 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 14:29:01,956 DEBUG   SenderThread:62357 [sender.py:send():382] send: telemetry
+2024-02-21 14:29:02,265 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/conda-environment.yaml
+2024-02-21 14:29:02,265 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_created():271] file/dir created: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-metadata.json
+2024-02-21 14:29:02,265 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_created():271] file/dir created: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/requirements.txt
+2024-02-21 14:29:02,265 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_created():271] file/dir created: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:02,474 INFO    wandb-upload_0:62357 [upload_job.py:push():131] Uploaded file /tmp/tmp7d4tp_2jwandb/0iaztj37-wandb-metadata.json
+2024-02-21 14:29:04,265 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:04,957 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 14:29:09,435 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:09,435 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:09,435 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:09,435 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:09,436 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:09,962 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 14:29:10,267 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:12,115 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:12,116 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:12,116 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:12,116 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:12,116 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:12,117 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:12,117 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:12,117 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:12,268 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:12,268 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_created():271] file/dir created: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:14,268 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:14,665 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:14,666 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:14,666 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:14,666 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:14,666 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:14,666 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:14,667 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:14,667 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:14,965 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 14:29:15,268 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:16,269 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:16,628 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 14:29:16,628 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 14:29:16,628 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 14:29:17,196 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:17,196 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:17,196 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:17,196 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:17,196 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:17,197 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:17,197 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:17,197 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:17,269 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:18,269 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:19,813 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:19,814 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:19,814 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:19,814 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:19,814 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:19,814 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:19,815 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:19,815 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:19,999 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 14:29:20,270 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:20,270 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:22,270 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:22,334 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:22,335 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:22,335 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:22,335 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:22,335 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:22,335 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:22,335 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:22,336 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:23,270 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:24,271 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:24,890 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:24,891 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:24,891 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:24,891 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:24,891 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:24,892 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:24,892 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:24,892 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:25,005 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 14:29:25,271 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:26,271 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:27,415 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:27,415 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:27,415 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:27,415 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:27,415 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:27,416 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:27,416 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:27,416 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:28,272 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:28,272 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:30,056 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 14:29:30,058 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:30,059 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:30,059 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:30,059 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:30,059 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:30,272 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:31,628 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 14:29:31,628 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 14:29:31,761 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:31,761 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:31,761 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:31,763 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 14:29:32,273 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:32,273 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/config.yaml
+2024-02-21 14:29:32,273 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:32,273 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_created():271] file/dir created: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/3m_10013_mixer.pt
+2024-02-21 14:29:32,273 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_created():271] file/dir created: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/policy_0/3m_10013_q_network.pt
+2024-02-21 14:29:32,273 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_created():271] file/dir created: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/policy_0
+2024-02-21 14:29:32,611 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:32,611 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:32,611 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:32,611 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:32,612 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:32,612 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:32,612 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:32,612 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:33,273 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:34,273 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:35,110 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:35,111 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:35,111 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:35,111 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:35,111 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:35,111 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:35,113 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:35,113 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:35,274 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:36,274 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:36,789 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 14:29:37,625 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:37,625 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:37,625 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:37,625 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:37,625 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:37,626 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:37,627 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:37,628 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:38,274 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:38,275 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:40,140 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:40,141 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:40,141 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:40,141 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:40,141 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:40,141 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:40,142 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:40,142 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:40,275 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:40,275 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:41,806 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 14:29:42,275 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:42,737 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:42,737 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:42,737 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:42,738 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:42,738 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:42,738 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:42,738 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:42,739 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:43,276 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:44,276 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:45,371 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:45,372 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:45,372 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:45,372 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:45,372 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:45,373 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:45,373 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:45,373 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:46,276 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:46,277 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:46,629 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 14:29:46,629 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 14:29:46,629 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 14:29:46,927 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 14:29:48,008 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:48,008 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:48,009 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:48,009 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:48,009 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:48,009 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:48,009 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:48,010 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:48,277 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:48,277 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:50,278 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:50,653 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:50,653 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:50,653 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:50,654 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:50,654 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:50,654 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:50,654 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:50,655 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:51,278 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:51,946 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 14:29:52,278 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:53,308 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:53,308 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:53,309 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:53,309 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:53,309 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:53,309 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:53,309 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:53,310 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:54,279 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:54,279 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:55,981 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:55,981 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:55,981 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:55,982 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:55,982 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:55,982 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:55,982 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:55,982 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:56,279 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:29:56,280 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:56,996 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 14:29:58,280 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:29:58,280 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_created():271] file/dir created: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/policy_0/3m_20016_q_network.pt
+2024-02-21 14:29:58,280 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_created():271] file/dir created: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/3m_20016_mixer.pt
+2024-02-21 14:29:58,280 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/policy_0
+2024-02-21 14:29:58,637 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:58,637 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:58,637 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:58,638 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:29:58,638 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:58,638 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:29:58,638 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:29:58,639 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:29:59,280 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:30:00,281 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:30:00,335 DEBUG   SystemMonitor:62357 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-21 14:30:00,348 DEBUG   SenderThread:62357 [sender.py:send():382] send: stats
+2024-02-21 14:30:01,293 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:01,294 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:01,294 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:01,294 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:30:01,294 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:30:01,295 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:01,295 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:01,295 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:30:01,628 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 14:30:01,628 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 14:30:01,629 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 14:30:02,034 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 14:30:02,281 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:30:02,281 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:30:04,020 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:04,021 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:04,021 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:04,021 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:30:04,021 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:30:04,021 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:04,022 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:04,022 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:30:04,282 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:30:04,282 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:30:06,282 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:30:06,718 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:06,718 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:06,718 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:06,718 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:06,718 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:30:06,719 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:06,719 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:30:06,719 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:30:07,037 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 14:30:07,283 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:30:08,283 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:30:09,357 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:09,358 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:09,358 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:09,358 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:30:09,358 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:30:09,358 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:09,359 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:09,359 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:30:10,284 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:30:10,284 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:30:11,984 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:11,984 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:11,984 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:11,984 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:30:11,984 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:30:11,985 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:11,985 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-21 14:30:11,985 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:30:12,081 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 14:30:12,284 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:30:12,284 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:30:12,978 DEBUG   SenderThread:62357 [sender.py:send():382] send: exit
+2024-02-21 14:30:12,978 INFO    SenderThread:62357 [sender.py:send_exit():589] handling exit code: 255
+2024-02-21 14:30:12,979 INFO    SenderThread:62357 [sender.py:send_exit():591] handling runtime: 72
+2024-02-21 14:30:12,979 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:30:12,979 INFO    SenderThread:62357 [sender.py:send_exit():597] send defer
+2024-02-21 14:30:12,979 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 14:30:12,979 INFO    HandlerThread:62357 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-21 14:30:12,979 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: defer
+2024-02-21 14:30:12,979 INFO    SenderThread:62357 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-21 14:30:12,979 INFO    SenderThread:62357 [sender.py:transition_state():617] send defer: 1
+2024-02-21 14:30:12,979 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 14:30:12,979 INFO    HandlerThread:62357 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-21 14:30:12,979 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: defer
+2024-02-21 14:30:12,979 INFO    SenderThread:62357 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-21 14:30:12,979 INFO    SenderThread:62357 [sender.py:transition_state():617] send defer: 2
+2024-02-21 14:30:12,979 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 14:30:12,979 INFO    HandlerThread:62357 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-21 14:30:12,979 INFO    HandlerThread:62357 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-21 14:30:12,979 DEBUG   SystemMonitor:62357 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-21 14:30:12,980 INFO    HandlerThread:62357 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-21 14:30:12,980 DEBUG   SystemMonitor:62357 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-21 14:30:12,980 INFO    HandlerThread:62357 [interfaces.py:finish():202] Joined disk monitor
+2024-02-21 14:30:13,063 INFO    HandlerThread:62357 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-21 14:30:13,063 INFO    HandlerThread:62357 [interfaces.py:finish():202] Joined memory monitor
+2024-02-21 14:30:13,063 INFO    HandlerThread:62357 [interfaces.py:finish():202] Joined network monitor
+2024-02-21 14:30:13,064 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: defer
+2024-02-21 14:30:13,064 INFO    SenderThread:62357 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-21 14:30:13,064 INFO    SenderThread:62357 [sender.py:transition_state():617] send defer: 3
+2024-02-21 14:30:13,064 DEBUG   SenderThread:62357 [sender.py:send():382] send: stats
+2024-02-21 14:30:13,064 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 14:30:13,064 INFO    HandlerThread:62357 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-21 14:30:13,064 DEBUG   SenderThread:62357 [sender.py:send():382] send: history
+2024-02-21 14:30:13,065 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: summary_record
+2024-02-21 14:30:13,065 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:30:13,065 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: defer
+2024-02-21 14:30:13,065 INFO    SenderThread:62357 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-21 14:30:13,065 INFO    SenderThread:62357 [sender.py:transition_state():617] send defer: 4
+2024-02-21 14:30:13,065 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 14:30:13,065 INFO    HandlerThread:62357 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-21 14:30:13,065 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: defer
+2024-02-21 14:30:13,065 INFO    SenderThread:62357 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-21 14:30:13,065 INFO    SenderThread:62357 [sender.py:transition_state():617] send defer: 5
+2024-02-21 14:30:13,065 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 14:30:13,065 INFO    HandlerThread:62357 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-21 14:30:13,065 DEBUG   SenderThread:62357 [sender.py:send():382] send: summary
+2024-02-21 14:30:13,066 INFO    SenderThread:62357 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 14:30:13,066 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: defer
+2024-02-21 14:30:13,066 INFO    SenderThread:62357 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-21 14:30:13,066 INFO    SenderThread:62357 [sender.py:transition_state():617] send defer: 6
+2024-02-21 14:30:13,066 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 14:30:13,066 INFO    HandlerThread:62357 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-21 14:30:13,066 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: defer
+2024-02-21 14:30:13,066 INFO    SenderThread:62357 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-21 14:30:13,066 INFO    SenderThread:62357 [sender.py:transition_state():617] send defer: 7
+2024-02-21 14:30:13,066 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 14:30:13,066 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 14:30:13,066 INFO    HandlerThread:62357 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-21 14:30:13,066 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: defer
+2024-02-21 14:30:13,067 INFO    SenderThread:62357 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-21 14:30:13,285 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:30:13,979 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-21 14:30:14,285 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:30:14,955 INFO    SenderThread:62357 [sender.py:transition_state():617] send defer: 8
+2024-02-21 14:30:14,955 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: poll_exit
+2024-02-21 14:30:14,956 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 14:30:14,956 INFO    HandlerThread:62357 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-21 14:30:14,956 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: defer
+2024-02-21 14:30:14,956 INFO    SenderThread:62357 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-21 14:30:14,956 INFO    SenderThread:62357 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-21 14:30:14,956 INFO    SenderThread:62357 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-02-21 14:30:14,978 INFO    SenderThread:62357 [job_builder.py:build():402] adding wandb-job metadata file
+2024-02-21 14:30:14,979 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-21 14:30:14,991 INFO    SenderThread:62357 [sender.py:transition_state():617] send defer: 9
+2024-02-21 14:30:14,991 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: poll_exit
+2024-02-21 14:30:14,991 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 14:30:14,991 INFO    HandlerThread:62357 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-21 14:30:14,992 DEBUG   SenderThread:62357 [sender.py:send():382] send: artifact
+2024-02-21 14:30:15,286 INFO    Thread-12 :62357 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:30:15,980 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-21 14:30:16,155 INFO    SenderThread:62357 [sender.py:send_artifact():1494] sent artifact job-https___github.com_singforai_off-policy-customized.git_offpolicy_scripts_train_train_smac.py - {'id': 'QXJ0aWZhY3Q6NzI2NTUyMDI0', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzOTMyOTIyNw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzI2NTc5MjY3', 'versionIndex': 9}}}
+2024-02-21 14:30:16,155 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: defer
+2024-02-21 14:30:16,155 INFO    SenderThread:62357 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-21 14:30:16,155 INFO    SenderThread:62357 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-21 14:30:16,287 INFO    SenderThread:62357 [dir_watcher.py:finish():388] scan: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files
+2024-02-21 14:30:16,287 INFO    SenderThread:62357 [dir_watcher.py:finish():402] scan save: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/3m_10013_mixer.pt 3m_10013_mixer.pt
+2024-02-21 14:30:16,287 INFO    SenderThread:62357 [dir_watcher.py:finish():402] scan save: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/conda-environment.yaml conda-environment.yaml
+2024-02-21 14:30:16,287 INFO    SenderThread:62357 [dir_watcher.py:finish():402] scan save: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/3m_20016_mixer.pt 3m_20016_mixer.pt
+2024-02-21 14:30:16,287 INFO    SenderThread:62357 [dir_watcher.py:finish():402] scan save: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/requirements.txt requirements.txt
+2024-02-21 14:30:16,288 INFO    SenderThread:62357 [dir_watcher.py:finish():402] scan save: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/config.yaml config.yaml
+2024-02-21 14:30:16,292 INFO    SenderThread:62357 [dir_watcher.py:finish():402] scan save: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-metadata.json wandb-metadata.json
+2024-02-21 14:30:16,293 INFO    SenderThread:62357 [dir_watcher.py:finish():402] scan save: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log output.log
+2024-02-21 14:30:16,294 INFO    SenderThread:62357 [dir_watcher.py:finish():402] scan save: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json wandb-summary.json
+2024-02-21 14:30:16,297 INFO    SenderThread:62357 [dir_watcher.py:finish():402] scan save: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/policy_0/3m_20016_q_network.pt policy_0/3m_20016_q_network.pt
+2024-02-21 14:30:16,299 INFO    SenderThread:62357 [dir_watcher.py:finish():402] scan save: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/policy_0/3m_10013_q_network.pt policy_0/3m_10013_q_network.pt
+2024-02-21 14:30:16,300 INFO    SenderThread:62357 [sender.py:transition_state():617] send defer: 10
+2024-02-21 14:30:16,300 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: poll_exit
+2024-02-21 14:30:16,300 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 14:30:16,300 INFO    HandlerThread:62357 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-21 14:30:16,302 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: defer
+2024-02-21 14:30:16,302 INFO    SenderThread:62357 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-21 14:30:16,302 INFO    SenderThread:62357 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-21 14:30:16,761 INFO    wandb-upload_1:62357 [upload_job.py:push():131] Uploaded file /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/3m_10013_mixer.pt
+2024-02-21 14:30:16,897 INFO    wandb-upload_2:62357 [upload_job.py:push():131] Uploaded file /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/conda-environment.yaml
+2024-02-21 14:30:16,900 INFO    wandb-upload_0:62357 [upload_job.py:push():131] Uploaded file /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/3m_20016_mixer.pt
+2024-02-21 14:30:16,926 INFO    wandb-upload_6:62357 [upload_job.py:push():131] Uploaded file /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/wandb-summary.json
+2024-02-21 14:30:16,953 INFO    wandb-upload_4:62357 [upload_job.py:push():131] Uploaded file /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/config.yaml
+2024-02-21 14:30:16,967 INFO    wandb-upload_3:62357 [upload_job.py:push():131] Uploaded file /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/requirements.txt
+2024-02-21 14:30:16,980 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-21 14:30:16,980 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: poll_exit
+2024-02-21 14:30:17,105 INFO    wandb-upload_5:62357 [upload_job.py:push():131] Uploaded file /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/output.log
+2024-02-21 14:30:17,278 INFO    wandb-upload_8:62357 [upload_job.py:push():131] Uploaded file /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/policy_0/3m_10013_q_network.pt
+2024-02-21 14:30:17,420 INFO    wandb-upload_7:62357 [upload_job.py:push():131] Uploaded file /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/files/policy_0/3m_20016_q_network.pt
+2024-02-21 14:30:17,620 INFO    Thread-11 :62357 [sender.py:transition_state():617] send defer: 11
+2024-02-21 14:30:17,620 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 14:30:17,620 INFO    HandlerThread:62357 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-21 14:30:17,621 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: defer
+2024-02-21 14:30:17,621 INFO    SenderThread:62357 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-21 14:30:17,621 INFO    SenderThread:62357 [file_pusher.py:join():181] waiting for file pusher
+2024-02-21 14:30:17,621 INFO    SenderThread:62357 [sender.py:transition_state():617] send defer: 12
+2024-02-21 14:30:17,621 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 14:30:17,621 INFO    HandlerThread:62357 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-21 14:30:17,621 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: defer
+2024-02-21 14:30:17,621 INFO    SenderThread:62357 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-21 14:30:17,621 INFO    SenderThread:62357 [file_stream.py:finish():595] file stream finish called
+2024-02-21 14:30:17,980 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-21 14:30:18,269 INFO    SenderThread:62357 [file_stream.py:finish():599] file stream finish is done
+2024-02-21 14:30:18,269 INFO    SenderThread:62357 [sender.py:transition_state():617] send defer: 13
+2024-02-21 14:30:18,269 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: poll_exit
+2024-02-21 14:30:18,269 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 14:30:18,270 INFO    HandlerThread:62357 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-21 14:30:18,270 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: defer
+2024-02-21 14:30:18,270 INFO    SenderThread:62357 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-21 14:30:18,270 INFO    SenderThread:62357 [sender.py:transition_state():617] send defer: 14
+2024-02-21 14:30:18,270 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 14:30:18,270 DEBUG   SenderThread:62357 [sender.py:send():382] send: final
+2024-02-21 14:30:18,270 INFO    HandlerThread:62357 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-21 14:30:18,270 DEBUG   SenderThread:62357 [sender.py:send():382] send: footer
+2024-02-21 14:30:18,271 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: defer
+2024-02-21 14:30:18,271 INFO    SenderThread:62357 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-21 14:30:18,271 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-21 14:30:18,271 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: poll_exit
+2024-02-21 14:30:18,271 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-21 14:30:18,272 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: poll_exit
+2024-02-21 14:30:18,272 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: server_info
+2024-02-21 14:30:18,272 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: server_info
+2024-02-21 14:30:18,274 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-21 14:30:18,274 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-21 14:30:18,274 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 14:30:18,275 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: job_info
+2024-02-21 14:30:18,467 DEBUG   SenderThread:62357 [sender.py:send_request():409] send_request: job_info
+2024-02-21 14:30:18,468 INFO    MainThread:62357 [wandb_run.py:_footer_history_summary_info():3857] rendering history
+2024-02-21 14:30:18,468 INFO    MainThread:62357 [wandb_run.py:_footer_history_summary_info():3889] rendering summary
+2024-02-21 14:30:18,469 INFO    MainThread:62357 [wandb_run.py:_footer_sync_info():3816] logging synced files
+2024-02-21 14:30:18,469 DEBUG   HandlerThread:62357 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-21 14:30:18,469 INFO    HandlerThread:62357 [handler.py:finish():869] shutting down handler
+2024-02-21 14:30:19,275 INFO    WriterThread:62357 [datastore.py:close():296] close: /home/uosai/바탕화면/off-policy/offpolicy/scripts/results/StarCraft2/3m/vdn/use_prev_act_vdn/wandb/run-20240221_142859-vemwdpqq/run-vemwdpqq.wandb
+2024-02-21 14:30:19,468 INFO    SenderThread:62357 [sender.py:finish():1572] shutting down sender
+2024-02-21 14:30:19,468 INFO    SenderThread:62357 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-21 14:30:19,468 INFO    SenderThread:62357 [file_pusher.py:join():181] waiting for file pusher

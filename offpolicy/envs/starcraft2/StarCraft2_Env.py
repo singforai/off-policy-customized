@@ -61,7 +61,8 @@ class Direction(enum.IntEnum):
 
 
 class StarCraft2Env(MultiAgentEnv):
-    """The StarCraft II environment for decentralised multi-agent
+    """
+    The StarCraft II environment for decentralised multi-agent
     micromanagement scenarios.
     """
 
@@ -183,24 +184,25 @@ class StarCraft2Env(MultiAgentEnv):
         replay_prefix : str, optional
             The prefix of the replay to be saved (default is None). If None,
             the name of the map will be used.
-        window_size_x : int, optional
-            The length of StarCraft II window size (default is 1920).
-        window_size_y: int, optional
-            The height of StarCraft II window size (default is 1200).
+        window_size_x : int, optionalor self.total_env_steps >= self.num_env_steps
         heuristic_ai: bool, optional
             Whether or not to use a non-learning heuristic AI (default False).
         heuristic_rest: bool, optional
             At any moment, restrict the actions of the heuristic AI to be
-            chosen from actself.train_number ailable to RL agents (default is False).
+            chosen from actself.train_stack ailable to RL agents (default is False).
             Ignored if heuristic_ai == False.
         debug: bool, optional
             Log messages about observations, state, actions and rewards for
             debugging purposes (default is False).
         """
+        # eval mode
+        self.eval_mode = args.eval_mode
+        self.num_eval_episodes = args.num_eval_episodes
         #save replay
+        self.num_env_steps = args.num_env_steps
         self.save_replays = args.save_replay
         self.save_replay_interval = args.save_replay_interval
-        self.train_number = 0
+        self.train_stack = 0
 
         # Map arguments
         self.map_name = args.map_name
@@ -545,12 +547,17 @@ class StarCraft2Env(MultiAgentEnv):
             reward /= self.max_reward / self.reward_scale_rate
 
         rewards = [[reward]]*self.n_agents
-
+        
         # replay save
-        if self.save_replays == True:
-            self.train_number += 1
-            if self.train_number % self.save_replay_interval == 0:
-                self.save_replay()
+        self.train_stack += 1 
+        if self.eval_mode:
+            if self.save_replays == True:
+                if self._episode_count == self.num_eval_episodes:
+                    self.Save_Replay()
+        else:
+            if self.save_replays == True:
+                if self.train_stack % self.save_replay_interval == 0 or self.train_stack == self.num_env_steps:
+                    self.Save_Replay()
 
         return self.get_obs(), self.get_state(), rewards, dones, infos, available_actions
 
@@ -835,9 +842,9 @@ class StarCraft2Env(MultiAgentEnv):
         }
         return switcher.get(unit.unit_type, 15)
 
-    def save_replay(self):
+    def Save_Replay(self):
         """Save a replay."""
-        prefix = self.replay_prefix or f"{self.map_name}_{self.train_number}"  
+        prefix = self.replay_prefix or f"{self.map_name}_{self.train_stack}"  
         replay_dir = self.replay_dir or ""
         replay_path = self._run_config.save_replay(
             self._controller.save_replay(), replay_dir=replay_dir, prefix=prefix)

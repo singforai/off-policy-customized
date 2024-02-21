@@ -14,6 +14,7 @@ class SMACRunner(MlpRunner):
         self.warmup(num_warmup_episodes)
         self.start = time.time()
         self.log_clear()
+        self.trainer = self.trainer
 
     @torch.no_grad()
     def eval(self):

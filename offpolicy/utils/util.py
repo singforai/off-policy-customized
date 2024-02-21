@@ -90,7 +90,7 @@ class DecayThenFlatSchedule():
 
         if self.decay in ["exp"]:
             self.exp_scaling = (-1) * self.time_length / \
-                np.log(self.finish) if self.finish > 0 else 1
+                np.log(self.finish) if self.finish > 0 else 1  #self.exp_scaling은 지수적으로 값이 감소하는 그래프를 생성한다. 
 
     def eval(self, T):
         if self.decay in ["linear"]:

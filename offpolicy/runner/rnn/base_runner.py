@@ -4,8 +4,13 @@ import wandb
 import torch
 from tensorboardX import SummaryWriter
 
+import time
+import datetime
+
 from offpolicy.utils.rec_buffer import RecReplayBuffer, PrioritizedRecReplayBuffer
 from offpolicy.utils.util import DecayThenFlatSchedule
+
+import sys
 
 class RecRunner(object):
     """Base class for training recurrent policies."""
@@ -19,6 +24,7 @@ class RecRunner(object):
         self.device = config["device"]
         self.q_learning = ["qmix","vdn"]
 
+        self.map_name = self.args.map_name
         self.share_policy = self.args.share_policy
         self.algorithm_name = self.args.algorithm_name
         self.env_name = self.args.env_name
@@ -26,7 +32,7 @@ class RecRunner(object):
         self.use_wandb = self.args.use_wandb
         self.use_reward_normalization = self.args.use_reward_normalization
         self.use_popart = self.args.use_popart
-        self.use_per = self.args.use_per
+        self.use_per = self.args.use_per #false
         self.per_alpha = self.args.per_alpha
         self.per_beta_start = self.args.per_beta_start
         self.buffer_size = self.args.buffer_size
@@ -36,7 +42,7 @@ class RecRunner(object):
         self.hard_update_interval_episode = self.args.hard_update_interval_episode
         self.popart_update_interval_step = self.args.popart_update_interval_step
         self.actor_train_interval_step = self.args.actor_train_interval_step
-        self.train_interval_episode = self.args.train_interval_episode
+        self.train_interval_episode = self.args.train_interval_episode #1
         self.train_interval = self.args.train_interval
         self.use_eval = self.args.use_eval
         self.eval_interval = self.args.eval_interval
@@ -51,6 +57,8 @@ class RecRunner(object):
         self.last_save_T = 0  # last epsiode after which the models were saved
         self.last_log_T = 0 # last timestep after which information was logged
         self.last_hard_update_episode = 0 # last episode after which target policy was updated to equal live policy
+
+        self.ExecuteTime = ExpectedExecuteTime()
 
         if config.__contains__("take_turn"):
             self.take_turn = config["take_turn"]
@@ -128,19 +136,19 @@ class RecRunner(object):
             from offpolicy.algorithms.vdn.vdn import VDN as TrainAlgo
         else:
             raise NotImplementedError
-        
+
         self.collecter = self.collect_rollout
         self.saver = self.save_q if self.algorithm_name in self.q_learning else self.save        
         self.restorer = self.restore_q if self.algorithm_name in self.q_learning else self.restore
         self.train = self.batch_train_q if self.algorithm_name in self.q_learning else self.batch_train
 
         self.policies = {p_id: Policy(config, self.policy_info[p_id]) for p_id in self.policy_ids}
-
+        
         if self.model_dir is not None:
             self.restorer()
 
         # initialize trainer class for updating policies
-        self.trainer = TrainAlgo(self.args, self.num_agents, self.policies, self.policy_mapping_fn,
+        self.trainer = TrainAlgo(self.args, self.num_agents,self.batch_size, self.policies, self.policy_mapping_fn,
                                  device=self.device, episode_length=self.episode_length)
 
         # map policy id to agent ids controlled by that policy
@@ -178,31 +186,55 @@ class RecRunner(object):
                                           self.use_reward_normalization)
     
     def run(self):
+        self.ExecuteTime.start_time = time.perf_counter()
+        self.ExecuteTime.prior_step = self.total_env_steps
+
+
+        if self.args.eval_mode:
+            print("================================== evaluation mode ===================================")
+            self.eval()
+            self.total_env_steps = self.num_env_steps+1
+            print("======================================================================================")
+            return self.total_env_steps
+
         """Collect a training episode and perform appropriate training, saving, logging, and evaluation steps."""
         # collect data
         self.trainer.prep_rollout()
-        env_info = self.collecter(explore=True, training_episode=True, warmup=False)
+        env_info = self.collecter(explore=True, training_episode=True, warmup=False) 
         for k, v in env_info.items():
             self.env_infos[k].append(v)
 
         # train
         if ((self.num_episodes_collected - self.last_train_episode) / self.train_interval_episode) >= 1 or self.last_train_episode == 0:
-            self.train()
+            self.train() #batch_train_q
             self.total_train_steps += 1
             self.last_train_episode = self.num_episodes_collected
 
+        self.ExecuteTime.end_time = time.perf_counter()
+        self.ExecuteTime.execution_time = self.ExecuteTime.end_time - self.ExecuteTime.start_time
+        self.ExecuteTime.bias_correction = 1 - self.ExecuteTime.weight**(self.total_env_steps)
+        self.ExecuteTime.weighted_average_time = (self.ExecuteTime.weight * (
+            self.ExecuteTime.weighted_average_time)) + ((1 - self.ExecuteTime.weight) * (self.ExecuteTime.execution_time/(self.total_env_steps-self.ExecuteTime.prior_step)))/(self.ExecuteTime.bias_correction)
+        self.ExecuteTime.sec_per_step = self.ExecuteTime.weighted_average_time*(self.num_env_steps-self.total_env_steps)
+        self.ExecuteTime.predicted_time = str(datetime.timedelta(seconds = self.ExecuteTime.sec_per_step))
+        
+
         # save
-        if (self.total_env_steps - self.last_save_T) / self.save_interval >= 1:
+        if (self.total_env_steps - self.last_save_T) / self.save_interval >= 1 or self.total_env_steps >= self.num_env_steps:
             self.saver()
             self.last_save_T = self.total_env_steps
 
+
         # log
-        if ((self.total_env_steps - self.last_log_T) / self.log_interval) >= 1:
+        if ((self.total_env_steps - self.last_log_T) / self.log_interval) >= 1 or self.total_env_steps >= self.num_env_steps:
+            
             self.log()
+            print(f"Predicted program execution time: {self.ExecuteTime.predicted_time}")
+            print("================================================================================")
             self.last_log_T = self.total_env_steps
 
         # eval
-        if self.use_eval and ((self.total_env_steps - self.last_eval_T) / self.eval_interval) >= 1:
+        if self.use_eval and ((self.total_env_steps - self.last_eval_T) / self.eval_interval) >= 1 or self.total_env_steps >= self.num_env_steps:
             self.eval()
             self.last_eval_T = self.total_env_steps
 
@@ -267,9 +299,9 @@ class RecRunner(object):
                 beta = self.beta_anneal.eval(self.total_train_steps)
                 sample = self.buffer.sample(self.batch_size, beta, p_id)
             else:
+               
                 sample = self.buffer.sample(self.batch_size)
-
-            train_info, new_priorities, idxes = self.trainer.train_policy_on_batch(sample)
+            train_info, new_priorities, idxes = self.trainer.train_policy_on_batch(sample) 
 
             if self.use_per:
                 self.buffer.update_priorities(idxes, new_priorities, p_id)
@@ -307,12 +339,13 @@ class RecRunner(object):
             p_save_path = self.save_dir + '/' + str(pid)
             if not os.path.exists(p_save_path):
                 os.makedirs(p_save_path)
-            torch.save(policy_Q.state_dict(), p_save_path + '/q_network.pt')
-
+            torch.save(policy_Q.state_dict(), p_save_path + f'/{self.map_name}_{self.total_env_steps}_q_network.pt')
+        print(f'{self.map_name}_{self.total_env_steps}_q_network.pt file saves complete')
         if not os.path.exists(self.save_dir):
             os.makedirs(self.save_dir)
         torch.save(self.trainer.mixer.state_dict(),
-                   self.save_dir + '/mixer.pt')
+                   self.save_dir + f'/{self.map_name}_{self.total_env_steps}_mixer.pt')
+        print(f'{self.map_name}_{self.total_env_steps}_mixer.pt file saves complete' )
 
     def restore(self):
         """Load policies policies from pretrained models specified by path in config."""
@@ -330,11 +363,11 @@ class RecRunner(object):
         for pid in self.policy_ids:
             path = str(self.model_dir) + str(pid)
             print("load the pretrained model from {}".format(path))
-            policy_q_state_dict = torch.load(path + '/q_network.pt')           
+            policy_q_state_dict = torch.load(path + '/' +self.args.q_network_name)  
             self.policies[pid].q_network.load_state_dict(policy_q_state_dict)
             
-        policy_mixer_state_dict = torch.load(str(self.model_dir) + '/mixer.pt')
-        self.trainer.mixer.load_state_dict(policy_mixer_state_dict)
+        policy_mixer_state_dict = torch.load(str(self.model_dir) + self.args.mixer_name)
+        #self.trainer.mixer.load_state_dict(policy_mixer_state_dict) # QMIX가 아닌 VDN을 실행할 때는 MIXING network가 필요 없으므로 차단해도 된다. 
 
     def log(self):
         """Log relevent training and rollout colleciton information.."""
@@ -375,4 +408,19 @@ class RecRunner(object):
 
     def collect_rollout(self):
         """Collect a rollout and store it in the buffer."""
-        raise NotImplementedError
+        raise NotImplementedError # 해당 메서드가 아직 구현되지 않았음을 의미하는 에러 
+
+class ExpectedExecuteTime():
+    def __init__(self):
+        self.total_num_steps = 0
+        self.weighted_average_time = 0.0
+        self.weight = 0.99
+        self.start_time = None
+        self.prior_step = None
+        self.end_time = None
+        self.execution_time = 0
+        self.bias_correction = None
+        self.sec_per_step = None
+        self.predicted_time = None
+
+        

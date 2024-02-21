@@ -8,7 +8,7 @@ def get_config():
     # prepare parameters
     parser.add_argument("--algorithm_name", type=str, default="rmatd3", choices=[
                         "rmatd3", "rmaddpg", "rmasac", "qmix", "vdn", "matd3", "maddpg", "masac", "mqmix", "mvdn"])
-    parser.add_argument("--experiment_name", type=str, default="check")
+    parser.add_argument("--experiment_name", type=str, default="train")
     parser.add_argument("--seed", type=int, default=1,
                         help="Random seed for numpy/torch")
     parser.add_argument("--cuda", action='store_false', default=True)
@@ -22,7 +22,7 @@ def get_config():
                         help="Number of parallel envs for evaluating rollout")
     parser.add_argument('--num_env_steps', type=int,
                         default=2000000, help="Number of env steps to train for")
-    parser.add_argument('--use_wandb', action='store_false', default=True,
+    parser.add_argument('--use_wandb', default=False, # action='store_false': 값의 여부와 상관없이 bool을 변경하므로 참고할 것 
                         help="Whether to use weights&biases, if not, use tensorboardX instead")
     parser.add_argument('--user_name', type=str, default="zoeyuchao")
 
@@ -45,18 +45,18 @@ def get_config():
                         
     # prioritized experience replay
     parser.add_argument('--use_per', action='store_true', default=False,
-                        help="Whether to use prioritized experience replay")
+                        help="Whether to use prioritized experience replay") # 우선순위 경험 재생
     parser.add_argument('--per_nu', type=float, default=0.9,
                         help="Weight of max TD error in formation of PER weights")
     parser.add_argument('--per_alpha', type=float, default=0.6,
                         help="Alpha term for prioritized experience replay")
     parser.add_argument('--per_eps', type=float, default=1e-6,
-                        help="Eps term for prioritized experience replay")
+                        help="Eps term for prioritized experience replay") # 우선순위를 매길 때 사용하는 작은 값
     parser.add_argument('--per_beta_start', type=float, default=0.4,
                         help="Starting beta term for prioritized experience replay")
 
     # network parameters
-    parser.add_argument("--use_centralized_Q", action='store_false',
+    parser.add_argument("--use_centralized_Q", action='store_false', 
                         default=True, help="Whether to use centralized Q function")
     parser.add_argument('--share_policy', action='store_false',
                         default=True, help="Whether agents share the same policy")
@@ -68,9 +68,9 @@ def get_config():
                         default=True, help="Whether to use ReLU")
     parser.add_argument('--use_feature_normalization', action='store_false',
                         default=True, help="Whether to apply layernorm to the inputs")
-    parser.add_argument('--use_orthogonal', action='store_false', default=True,
+    parser.add_argument('--use_orthogonal', action='store_false', default=True, #Xavier와 다른 가충치 초기화 방식: False일 경우 
                         help="Whether to use Orthogonal initialization for weights and 0 initialization for biases")
-    parser.add_argument("--gain", type=float, default=0.01,
+    parser.add_argument("--gain", type=float, default=0.01, #qmix에서 사용
                         help="The gain # of last action layer")
     parser.add_argument("--use_conv1d", action='store_true',
                         default=False, help="Whether to use conv1d")
@@ -118,8 +118,8 @@ def get_config():
     parser.add_argument("--max_grad_norm", type=float, default=10.0,
                         help='max norm of gradients (default: 0.5)')
     parser.add_argument('--use_huber_loss', action='store_true',
-                        default=False, help="Whether to use Huber loss for critic update")
-    parser.add_argument("--huber_delta", type=float, default=10.0)
+                        default=False, help="Whether to use Huber loss for critic update") # MSE/MAE loss function의 결합형태 
+    parser.add_argument("--huber_delta", type=float, default=10.0) #MSE/MAE가 서로 전환되는 시점을 지정함. 
 
     # soft update parameters
     parser.add_argument('--use_soft_update', action='store_false',
@@ -174,7 +174,7 @@ def get_config():
 
     # eval parameters
     parser.add_argument('--use_eval', action='store_false',
-                        default=True, help="Whether to conduct the evaluation")
+                        default=False, help="Whether to conduct the evaluation")
     parser.add_argument('--eval_interval', type=int,  default=10000,
                         help="After how many episodes the policy should be evaled")
     parser.add_argument('--num_eval_episodes', type=int, default=32,
@@ -185,12 +185,14 @@ def get_config():
                         help="After how many episodes of training the policy model should be saved")
 
     # log parameters
-    parser.add_argument('--log_interval', type=int, default=1000,
+    parser.add_argument('--log_interval', type=int, default=1000, #아직 구현되지 않음 
                         help="After how many episodes of training the policy model should be saved")
 
     # pretained parameters
     parser.add_argument("--model_dir", type=str, default=None)
-
+    # VDN or QMIX
+    parser.add_argument("--q_network_name", type=str, default=None)
+    parser.add_argument("--mixer_name", type=str, default=None) # IF VDN: None
 
     parser.add_argument('--map_name', type=str, default='3m',
                         help="Which smac map to run on")
@@ -200,10 +202,15 @@ def get_config():
                         default=True, help="Whether to use available actions")
     parser.add_argument('--use_global_all_local_state', action='store_true',
                         default=False, help="Whether to use available actions")
+    
+
     # save replay 
-    parser.add_argument('--save_replay', action='store_true',
+    parser.add_argument('--save_replay',
                         default=False, help="select to save a replay")
     parser.add_argument('--save_replay_interval', type=int,
                         default=100000, help="save term of replay")
 
+    # test mode
+    parser.add_argument('--eval_mode', default=False, help="only Evaluations, not Training")
+    # args.num_eval_episodes
     return parser

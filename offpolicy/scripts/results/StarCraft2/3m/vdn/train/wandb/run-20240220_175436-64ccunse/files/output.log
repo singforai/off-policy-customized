@@ -1,0 +1,504 @@
+[48]
+double Q learning will be used
+warm up...
+warmup average episode rewards: 1.454545497894287
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 902/100000, FPS 140.
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 1005/100000, FPS 147.
+average_episode_rewards is 1.6438355
+win_rate is 0.0
+Predicted program execution time: 0:00:11.979869
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 2061/100000, FPS 215.
+average_episode_rewards is 1.5616438
+win_rate is 0.0
+Predicted program execution time: 0:01:28.368843
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 3064/100000, FPS 255.
+average_episode_rewards is 1.6178802
+win_rate is 0.0
+Predicted program execution time: 0:02:14.911737
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 4076/100000, FPS 281.
+average_episode_rewards is 1.7612523
+win_rate is 0.0
+Predicted program execution time: 0:02:48.588178
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 5097/100000, FPS 300.
+average_episode_rewards is 1.7891046
+win_rate is 0.0
+Predicted program execution time: 0:03:10.143492
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 6116/100000, FPS 313.
+average_episode_rewards is 1.7753426
+win_rate is 0.0
+Predicted program execution time: 0:03:23.666385
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 7121/100000, FPS 323.
+average_episode_rewards is 1.8808539
+win_rate is 0.0
+Predicted program execution time: 0:03:31.228931
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 8135/100000, FPS 332.
+average_episode_rewards is 2.1539466
+win_rate is 0.0
+Predicted program execution time: 0:03:34.437113
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 9147/100000, FPS 339.
+average_episode_rewards is 2.038356
+win_rate is 0.0
+Predicted program execution time: 0:03:37.125899
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 10158/100000, FPS 344.
+average_episode_rewards is 2.310087
+win_rate is 0.0
+Predicted program execution time: 0:03:38.099488
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 11174/100000, FPS 349.
+average_episode_rewards is 2.1655748
+win_rate is 0.0
+Predicted program execution time: 0:03:38.126248
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 12193/100000, FPS 352.
+average_episode_rewards is 2.3153598
+win_rate is 0.0
+Predicted program execution time: 0:03:38.252763
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 13198/100000, FPS 355.
+average_episode_rewards is 2.3086755
+win_rate is 0.0
+Predicted program execution time: 0:03:36.676606
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 14212/100000, FPS 358.
+average_episode_rewards is 2.3923051
+win_rate is 0.0
+Predicted program execution time: 0:03:34.807096
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 15214/100000, FPS 360.
+average_episode_rewards is 2.4257991
+win_rate is 0.0
+Predicted program execution time: 0:03:32.374962
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 16217/100000, FPS 362.
+average_episode_rewards is 2.5426986
+win_rate is 0.0
+Predicted program execution time: 0:03:31.209379
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 17226/100000, FPS 364.
+average_episode_rewards is 2.7910957
+win_rate is 0.0
+Predicted program execution time: 0:03:29.969681
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 18234/100000, FPS 365.
+average_episode_rewards is 2.7561646
+win_rate is 0.0
+Predicted program execution time: 0:03:28.663367
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 19254/100000, FPS 366.
+average_episode_rewards is 3.0608222
+win_rate is 0.0
+Predicted program execution time: 0:03:27.029776
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 20274/100000, FPS 367.
+average_episode_rewards is 2.9063463
+win_rate is 0.0
+Predicted program execution time: 0:03:25.470338
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 21282/100000, FPS 368.
+average_episode_rewards is 2.9742467
+win_rate is 0.0
+Predicted program execution time: 0:03:24.384005
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 22285/100000, FPS 369.
+average_episode_rewards is 3.1386304
+win_rate is 0.0
+Predicted program execution time: 0:03:21.019657
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 23288/100000, FPS 369.
+average_episode_rewards is 3.4402363
+win_rate is 0.0
+Predicted program execution time: 0:03:19.855251
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 24297/100000, FPS 370.
+average_episode_rewards is 3.3134565
+win_rate is 0.0
+Predicted program execution time: 0:03:17.381685
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 25310/100000, FPS 370.
+average_episode_rewards is 3.4649475
+win_rate is 0.0
+Predicted program execution time: 0:03:15.213968
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 26318/100000, FPS 371.
+average_episode_rewards is 3.5637927
+win_rate is 0.0
+Predicted program execution time: 0:03:13.122807
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 27337/100000, FPS 371.
+average_episode_rewards is 4.0268598
+win_rate is 0.0
+Predicted program execution time: 0:03:11.044920
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 28339/100000, FPS 371.
+average_episode_rewards is 4.1944666
+win_rate is 0.0
+Predicted program execution time: 0:03:08.800590
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 29360/100000, FPS 371.
+average_episode_rewards is 3.8732204
+win_rate is 0.0
+Predicted program execution time: 0:03:05.645096
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 30364/100000, FPS 372.
+average_episode_rewards is 4.222401
+win_rate is 0.0
+Predicted program execution time: 0:03:04.238070
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 31380/100000, FPS 372.
+average_episode_rewards is 4.459178
+win_rate is 0.0
+Predicted program execution time: 0:02:59.898791
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 32393/100000, FPS 372.
+average_episode_rewards is 4.981828
+win_rate is 0.02040816326530612
+Predicted program execution time: 0:02:57.251891
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 33413/100000, FPS 373.
+average_episode_rewards is 4.617781
+win_rate is 0.0
+Predicted program execution time: 0:02:54.989174
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 34431/100000, FPS 373.
+average_episode_rewards is 5.118904
+win_rate is 0.0
+Predicted program execution time: 0:02:52.853347
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 35438/100000, FPS 373.
+average_episode_rewards is 4.76265
+win_rate is 0.0
+Predicted program execution time: 0:02:49.969295
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 36439/100000, FPS 373.
+average_episode_rewards is 6.092255
+win_rate is 0.061224489795918366
+Predicted program execution time: 0:02:47.500134
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 37480/100000, FPS 374.
+average_episode_rewards is 5.2304945
+win_rate is 0.0
+Predicted program execution time: 0:02:44.461163
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 38494/100000, FPS 374.
+average_episode_rewards is 5.462775
+win_rate is 0.0
+Predicted program execution time: 0:02:41.032563
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 39515/100000, FPS 375.
+average_episode_rewards is 5.4151278
+win_rate is 0.0
+Predicted program execution time: 0:02:37.119761
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 40515/100000, FPS 375.
+average_episode_rewards is 6.9627266
+win_rate is 0.06976744186046512
+Predicted program execution time: 0:02:33.913889
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 41530/100000, FPS 376.
+average_episode_rewards is 7.141941
+win_rate is 0.0851063829787234
+Predicted program execution time: 0:02:30.066956
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 42541/100000, FPS 376.
+average_episode_rewards is 8.529292
+win_rate is 0.1702127659574468
+Predicted program execution time: 0:02:27.740717
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 43546/100000, FPS 376.
+average_episode_rewards is 8.180212
+win_rate is 0.1111111111111111
+Predicted program execution time: 0:02:24.851028
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 44552/100000, FPS 377.
+average_episode_rewards is 9.957311
+win_rate is 0.2558139534883721
+Predicted program execution time: 0:02:21.604343
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 45563/100000, FPS 377.
+average_episode_rewards is 13.440487
+win_rate is 0.5111111111111111
+Predicted program execution time: 0:02:18.916123
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 46579/100000, FPS 377.
+average_episode_rewards is 12.327549
+win_rate is 0.4222222222222222
+Predicted program execution time: 0:02:16.600477
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 47595/100000, FPS 378.
+average_episode_rewards is 14.596513
+win_rate is 0.5681818181818182
+Predicted program execution time: 0:02:13.722995
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 48606/100000, FPS 378.
+average_episode_rewards is 12.965602
+win_rate is 0.4666666666666667
+Predicted program execution time: 0:02:10.905435
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 49621/100000, FPS 378.
+average_episode_rewards is 13.621203
+win_rate is 0.5217391304347826
+Predicted program execution time: 0:02:08.031295
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 50625/100000, FPS 379.
+average_episode_rewards is 12.966819
+win_rate is 0.4666666666666667
+Predicted program execution time: 0:02:05.406332
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 51644/100000, FPS 379.
+average_episode_rewards is 15.579512
+win_rate is 0.6521739130434783
+Predicted program execution time: 0:02:03.117166
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 52664/100000, FPS 379.
+average_episode_rewards is 13.177473
+win_rate is 0.4888888888888889
+Predicted program execution time: 0:02:00.296075
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 53670/100000, FPS 379.
+average_episode_rewards is 15.3016615
+win_rate is 0.6382978723404256
+Predicted program execution time: 0:01:58.400071
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 54681/100000, FPS 380.
+average_episode_rewards is 15.095889
+win_rate is 0.6136363636363636
+Predicted program execution time: 0:01:56.356005
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 55685/100000, FPS 380.
+average_episode_rewards is 16.315664
+win_rate is 0.717391304347826
+Predicted program execution time: 0:01:53.839040
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 56691/100000, FPS 380.
+average_episode_rewards is 16.418873
+win_rate is 0.7333333333333333
+Predicted program execution time: 0:01:50.662316
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 57698/100000, FPS 380.
+average_episode_rewards is 17.58671
+win_rate is 0.8085106382978723
+Predicted program execution time: 0:01:48.399464
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 58700/100000, FPS 381.
+average_episode_rewards is 17.372353
+win_rate is 0.7954545454545454
+Predicted program execution time: 0:01:45.323563
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 59714/100000, FPS 381.
+average_episode_rewards is 17.754642
+win_rate is 0.8222222222222222
+Predicted program execution time: 0:01:43.169264
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 60735/100000, FPS 381.
+average_episode_rewards is 15.692404
+win_rate is 0.6590909090909091
+Predicted program execution time: 0:01:40.226717
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 61735/100000, FPS 381.
+average_episode_rewards is 18.331812
+win_rate is 0.8666666666666667
+Predicted program execution time: 0:01:37.656235
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 62748/100000, FPS 381.
+average_episode_rewards is 18.08569
+win_rate is 0.851063829787234
+Predicted program execution time: 0:01:35.153371
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 63758/100000, FPS 381.
+average_episode_rewards is 18.04884
+win_rate is 0.8478260869565217
+Predicted program execution time: 0:01:33.148395
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 64764/100000, FPS 381.
+average_episode_rewards is 17.18965
+win_rate is 0.7777777777777778
+Predicted program execution time: 0:01:30.850403
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 65788/100000, FPS 372.
+average_episode_rewards is 17.783104
+win_rate is 0.8333333333333334
+Predicted program execution time: 0:03:05.190539
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 66796/100000, FPS 372.
+average_episode_rewards is 19.172127
+win_rate is 0.9347826086956522
+Predicted program execution time: 0:02:23.370726
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 67799/100000, FPS 373.
+average_episode_rewards is 17.189291
+win_rate is 0.7727272727272727
+Predicted program execution time: 0:01:56.983193
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 68808/100000, FPS 373.
+average_episode_rewards is 18.136988
+win_rate is 0.8478260869565217
+Predicted program execution time: 0:01:42.543821
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 69813/100000, FPS 373.
+average_episode_rewards is 17.53549
+win_rate is 0.8181818181818182
+Predicted program execution time: 0:01:32.958402
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 70815/100000, FPS 373.
+average_episode_rewards is 18.245358
+win_rate is 0.8666666666666667
+Predicted program execution time: 0:01:24.764413
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 71821/100000, FPS 373.
+average_episode_rewards is 18.525417
+win_rate is 0.8888888888888888
+Predicted program execution time: 0:01:17.966830
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 72839/100000, FPS 374.
+average_episode_rewards is 19.73069
+win_rate is 0.9787234042553191
+Predicted program execution time: 0:01:12.612553
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 73852/100000, FPS 374.
+average_episode_rewards is 18.281887
+win_rate is 0.8666666666666667
+Predicted program execution time: 0:01:08.258729
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 74861/100000, FPS 374.
+average_episode_rewards is 18.840977
+win_rate is 0.9130434782608695
+Predicted program execution time: 0:01:05.031001
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 75886/100000, FPS 375.
+average_episode_rewards is 19.210245
+win_rate is 0.9347826086956522
+Predicted program execution time: 0:01:01.804665
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 76900/100000, FPS 375.
+average_episode_rewards is 17.968866
+win_rate is 0.8409090909090909
+Predicted program execution time: 0:00:58.611120
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 77903/100000, FPS 375.
+average_episode_rewards is 17.87173
+win_rate is 0.8409090909090909
+Predicted program execution time: 0:00:55.851259
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 78907/100000, FPS 376.
+average_episode_rewards is 18.270786
+win_rate is 0.8604651162790697
+Predicted program execution time: 0:00:53.159329
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 79923/100000, FPS 376.
+average_episode_rewards is 19.13758
+win_rate is 0.9347826086956522
+Predicted program execution time: 0:00:50.741189
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 80935/100000, FPS 376.
+average_episode_rewards is 18.828926
+win_rate is 0.9069767441860465
+Predicted program execution time: 0:00:48.252410
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 81940/100000, FPS 376.
+average_episode_rewards is 19.395987
+win_rate is 0.9534883720930233
+Predicted program execution time: 0:00:45.459138
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 82946/100000, FPS 377.
+average_episode_rewards is 19.421614
+win_rate is 0.9555555555555556
+Predicted program execution time: 0:00:43.065922
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 83959/100000, FPS 377.
+average_episode_rewards is 19.46949
+win_rate is 0.9545454545454546
+Predicted program execution time: 0:00:40.557070
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 84979/100000, FPS 377.
+average_episode_rewards is 18.88219
+win_rate is 0.9111111111111111
+Predicted program execution time: 0:00:37.928442
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 85984/100000, FPS 377.
+average_episode_rewards is 19.1071
+win_rate is 0.9318181818181818
+Predicted program execution time: 0:00:35.321779
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 86988/100000, FPS 377.
+average_episode_rewards is 18.583864
+win_rate is 0.8888888888888888
+Predicted program execution time: 0:00:32.904025
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 88007/100000, FPS 378.
+average_episode_rewards is 17.60523
+win_rate is 0.8181818181818182
+Predicted program execution time: 0:00:30.371643
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 89014/100000, FPS 378.
+average_episode_rewards is 18.53051
+win_rate is 0.8863636363636364
+Predicted program execution time: 0:00:27.823034
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 90022/100000, FPS 378.
+average_episode_rewards is 18.786694
+win_rate is 0.9047619047619048
+Predicted program execution time: 0:00:25.235648
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 91026/100000, FPS 378.
+average_episode_rewards is 18.482319
+win_rate is 0.8837209302325582
+Predicted program execution time: 0:00:22.712510
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 92048/100000, FPS 378.
+average_episode_rewards is 18.18265
+win_rate is 0.8571428571428571
+Predicted program execution time: 0:00:20.458055
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 93066/100000, FPS 379.
+average_episode_rewards is 18.36552
+win_rate is 0.8780487804878049
+Predicted program execution time: 0:00:17.776637
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 94087/100000, FPS 378.
+average_episode_rewards is 17.503664
+win_rate is 0.813953488372093
+Predicted program execution time: 0:00:15.439711
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 95098/100000, FPS 379.
+average_episode_rewards is 19.11111
+win_rate is 0.9333333333333333
+Predicted program execution time: 0:00:12.700893
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 96109/100000, FPS 379.
+average_episode_rewards is 18.199253
+win_rate is 0.8636363636363636
+Predicted program execution time: 0:00:09.953192
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 97124/100000, FPS 379.
+average_episode_rewards is 19.712328
+win_rate is 0.9772727272727273
+Predicted program execution time: 0:00:07.479779
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 98146/100000, FPS 379.
+average_episode_rewards is 18.586063
+win_rate is 0.8913043478260869
+Predicted program execution time: 0:00:04.805142
+================================================================================
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 99150/100000, FPS 379.
+average_episode_rewards is 19.437443
+win_rate is 0.9555555555555556
+Predicted program execution time: 0:00:02.180708
+================================================================================
+3m_100019_q_network.pt file saves complete
+3m_100019_mixer.pt file saves complete
+Env StarCraft2 Map 3m Algo vdn Exp train runs total num timesteps 100019/100000, FPS 379.
+average_episode_rewards is 19.307343
+win_rate is 0.9487179487179487
+Predicted program execution time: -1 day, 23:59:59.951389
+================================================================================
+eval_win_rate is 1.0
+eval_average_episode_rewards is 20.0

@@ -1,8 +1,7 @@
 import numpy as np
 import torch
-import time
+import time 
 from offpolicy.runner.rnn.base_runner import RecRunner
-from offpolicy.envs.starcraft2.StarCraft2_Env import StarCraft2Env # Replay를 남기기 위한 import: line 164
 
 class SMACRunner(RecRunner):
     def __init__(self, config):
@@ -11,9 +10,10 @@ class SMACRunner(RecRunner):
         # fill replay buffer with random actions
         num_warmup_episodes = max((self.batch_size, self.args.num_random_episodes)) #self.args.num_random_episodes: 5
         self.start = time.time()
-        self.warmup(num_warmup_episodes)
+        if self.args.eval_mode == False:
+            self.warmup(num_warmup_episodes)
         end = time.time()
-        print("\n Env {} Map {} Algo {} Exp {} runs total num timesteps {}/{}, FPS {}. \n"
+        print("\nEnv {} Map {} Algo {} Exp {} runs total num timesteps {}/{}, FPS {}. \n"
               .format(self.env_name,
                       self.args.map_name,
                       self.algorithm_name,
@@ -22,6 +22,7 @@ class SMACRunner(RecRunner):
                       self.num_env_steps,
                       int(self.total_env_steps / (end - self.start))))
         self.log_clear()
+
     
     def eval(self):
         """Collect episodes to evaluate the policy."""
@@ -33,7 +34,6 @@ class SMACRunner(RecRunner):
 
         for _ in range(self.args.num_eval_episodes):
             env_info = self.collecter(explore=False, training_episode=False, warmup=False)
-            
             for k, v in env_info.items():
                 eval_infos[k].append(v)
 
@@ -153,7 +153,8 @@ class SMACRunner(RecRunner):
     def log(self):
         """See parent class."""
         end = time.time()
-        print("\n Env {} Map {} Algo {} Exp {} runs total num timesteps {}/{}, FPS {}. \n"
+        
+        print("\nEnv {} Map {} Algo {} Exp {} runs total num timesteps {}/{}, FPS {}."
               .format(self.env_name,
                       self.args.map_name,
                       self.algorithm_name,
@@ -161,11 +162,6 @@ class SMACRunner(RecRunner):
                       self.total_env_steps,
                       self.num_env_steps,
                       int(self.total_env_steps / (end - self.start))))
-
-        # save_replay_command = StarCraft2Env(self.env)
-        # print("==========================================")
-        # save_replay_command.save_replay()
-        # print("==========================================")
 
         for p_id, train_info in zip(self.policy_ids, self.train_infos):
             self.log_train(p_id, train_info)

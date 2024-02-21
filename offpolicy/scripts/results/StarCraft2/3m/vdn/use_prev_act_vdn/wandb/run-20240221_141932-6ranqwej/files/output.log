@@ -1,0 +1,21 @@
+[48]
+double Q learning will be used
+warm up...
+Traceback (most recent call last):
+  File "/home/uosai/바탕화면/off-policy/offpolicy/scripts/train/train_smac.py", line 212, in <module>
+    main(sys.argv[1:])
+  File "/home/uosai/바탕화면/off-policy/offpolicy/scripts/train/train_smac.py", line 189, in main
+    runner = Runner(config=config)
+  File "/home/uosai/바탕화면/off-policy/offpolicy/runner/rnn/smac_runner.py", line 14, in __init__
+    self.warmup(num_warmup_episodes)
+  File "/home/uosai/바탕화면/off-policy/offpolicy/runner/rnn/base_runner.py", line 253, in warmup
+    env_info = self.collecter(explore=True, training_episode=False, warmup=True)
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/uosai/바탕화면/off-policy/offpolicy/runner/rnn/smac_runner.py", line 83, in collect_rollout
+    _, rnn_states_batch, _ = policy.get_actions(obs_batch,
+  File "/home/uosai/바탕화면/off-policy/offpolicy/algorithms/qmix/algorithm/QMixPolicy.py", line 102, in get_actions
+    q_values_out, new_rnn_states = self.get_q_values(obs, prev_actions, rnn_states)
+  File "/home/uosai/바탕화면/off-policy/offpolicy/algorithms/qmix/algorithm/QMixPolicy.py", line 60, in get_q_values
+    print(type(obs_batch_shape), type(prev_action_batch))
+NameError: name 'obs_batch_shape' is not defined

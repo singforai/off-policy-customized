@@ -5,6 +5,7 @@ from offpolicy.algorithms.base.recurrent_policy import RecurrentPolicy
 from torch.distributions import Categorical, OneHotCategorical
 from offpolicy.utils.util import get_dim_from_space, is_discrete, is_multidiscrete, make_onehot, DecayThenFlatSchedule, avail_choose, to_torch, to_numpy
 
+import sys
 
 class QMixPolicy(RecurrentPolicy):
     def __init__(self, config, policy_config, train=True):
@@ -26,9 +27,13 @@ class QMixPolicy(RecurrentPolicy):
         self.discrete = is_discrete(self.act_space)
         self.multidiscrete = is_multidiscrete(self.act_space)
 
+        #박현우 표 코드 변경
+        device=torch.device("cuda:0")
+        self.tpdv = dict(dtype=torch.float32, device=device)
+
         if self.args.prev_act_inp:
             # this is only local information so the agent can act decentralized
-            self.q_network_input_dim = self.obs_dim + self.act_dim
+            self.q_network_input_dim = self.obs_dim + self.act_dim # 73 64 9
         else:
             self.q_network_input_dim = self.obs_dim
 
@@ -50,15 +55,20 @@ class QMixPolicy(RecurrentPolicy):
         :return new_rnn_states: (torch.Tensor) updated RNN states
         """
 
+        """
+        3x64 / 3x9 / 3x64
+
+        61x96x64 / 61x96x9 / 96x64: runstate
+        """
+
         # combine previous action with observation for input into q, if specified in args
-        if self.args.prev_act_inp:
-            prev_action_batch = to_torch(prev_action_batch)
-            input_batch = torch.cat((obs_batch, prev_action_batch), dim=-1)
+        if self.args.prev_act_inp: # 이전 action도 input으로 포함시키는가? => default: false
+            obs_batch = to_torch(obs_batch).to(**self.tpdv)
+            prev_action_batch = to_torch(prev_action_batch).to(**self.tpdv)
+            input_batch = torch.cat((obs_batch, prev_action_batch), dim=-1) #3x73 / 61x96x73
         else:
             input_batch = obs_batch
-
-        q_batch, new_rnn_states = self.q_network(input_batch, rnn_states)
-
+        q_batch, new_rnn_states = self.q_network(input_batch, rnn_states) #collect: [3,9] #[3,64] => [61, 96, 9] , [96, 64]
         if action_batch is not None:
             action_batch = to_torch(action_batch).to(self.device)
             q_values = self.q_values_from_actions(q_batch, action_batch)
@@ -66,13 +76,14 @@ class QMixPolicy(RecurrentPolicy):
             q_values = q_batch
         return q_values, new_rnn_states
 
-    def q_values_from_actions(self, q_batch, action_batch):
+    def q_values_from_actions(self, q_batch, action_batch): # 60x96x9 , 60x96x9 // [61, 96, 9], [61,96,9]
         """
         Get q values corresponding to actions.
         :param q_batch: (torch.Tensor) q values corresponding to every action.
         :param action_batch: (torch.Tensor) actions taken by the agent.
         :return q_values: (torch.Tensor) q values in q_batch corresponding to actions in action_batch
         """
+
         if self.multidiscrete:
             ind = 0
             all_q_values = []
@@ -86,9 +97,13 @@ class QMixPolicy(RecurrentPolicy):
             q_values = torch.cat(all_q_values, dim=-1)
         else:
             # convert one-hot action batch to index tensors to gather the q values corresponding to the actions taken
-            action_batch = action_batch.max(dim=-1)[1]
+            action_batch = action_batch.max(dim=-1)[1]#dim=-1은 가장 안쪽에 았는 차원을 기준으로 최대값 찾아냄 최대값과 인덱스를 같이 보여주나 여긴 [1] 이용해 index 계산 
+            #action_batch: 60x91 or 60x90
+            print(action_batch.unsqueeze(dim=-1).shape)
             # import pdb; pdb.set_trace()
-            q_values = torch.gather(q_batch, 2, action_batch.unsqueeze(dim=-1))
+            q_values = torch.gather(q_batch, 2, action_batch.unsqueeze(dim=-1))  #action_batch: 맨 안쪽에 차원 1씩 추가 => 60x90x1 or 61x90x1
+            #gather함수를 활용해 특정 index를 추출한다. q_values는 특정 action에 대한 q값이 된다. 
+
             # q_values is a column vector containing q values for the actions specified by action_batch
         return q_values
 

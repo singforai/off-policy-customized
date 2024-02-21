@@ -1,0 +1,1 @@
+{"policy_0/loss": 0.4564658999443054, "_timestamp": 1708419548.2284179, "policy_0/grad_norm": 7.061568737030029, "policy_0/Q_tot": 3.349778890609741, "average_episode_rewards": 19.307342529296875, "win_rate": 0.9487179487179487, "_runtime": 271.71722292900085, "_step": 100019, "_wandb": {"runtime": 271}, "eval_win_rate": 1.0, "eval_average_episode_rewards": 20.0}

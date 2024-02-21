@@ -5,7 +5,7 @@ class RNNLayer(nn.Module):
     def __init__(self, inputs_dim, outputs_dim, recurrent_N, use_orthogonal):
         super(RNNLayer, self).__init__()
 
-        self.rnn = nn.GRU(inputs_dim, outputs_dim, num_layers=recurrent_N)
+        self.rnn = nn.GRU(inputs_dim, outputs_dim, num_layers=recurrent_N) # 64 64 1
         for name, param in self.rnn.named_parameters():
             if 'bias' in name:
                 nn.init.constant_(param, 0)
@@ -18,7 +18,8 @@ class RNNLayer(nn.Module):
 
     def forward(self, x, hxs):
         self.rnn.flatten_parameters()
-        x, hxs = self.rnn(x, hxs)
+        x, hxs = self.rnn(x, hxs) 
+        #x , hxs = torch.Size([1, 3, 64]) torch.Size([1, 3, 64]) torch.Size([61, 96, 64]) torch.Size([1, 96, 64])
         x = self.norm(x)
         return x, hxs[0, :, :]
 
@@ -26,8 +27,8 @@ class RNNBase(MLPBase):
     def __init__(self, args, inputs_dim):
         super(RNNBase, self).__init__(args, inputs_dim)
 
-        self._recurrent_N = args.recurrent_N
-
+        self._recurrent_N = args.recurrent_N #1
+        # mlp.py => hidden_size 64
         self.rnn = RNNLayer(self.hidden_size, self.hidden_size, self._recurrent_N, self._use_orthogonal)
 
     def forward(self, x, hxs):
@@ -41,7 +42,7 @@ class RNNBase(MLPBase):
             x = x.view(batch_size, -1)
 
         x = self.mlp(x)
-
+        
         x, hxs = self.rnn(x,hxs)
 
         return x, hxs

@@ -1,0 +1,2027 @@
+[179]
+double Q learning will be used
+warm up...
+warmup average episode rewards: 1.7580116987228394
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 1025/1000000, FPS 128.
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 1064/1000000, FPS 128.
+average_episode_rewards is 1.5539569
+win_rate is 0.0
+Predicted program execution time: 0:01:20.918284
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 2150/1000000, FPS 155.
+average_episode_rewards is 1.7161542
+win_rate is 0.0
+Predicted program execution time: 0:25:31.736657
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 3169/1000000, FPS 164.
+average_episode_rewards is 1.7469319
+win_rate is 0.0
+Predicted program execution time: 0:44:24.596358
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 4269/1000000, FPS 169.
+average_episode_rewards is 1.850581
+win_rate is 0.0
+Predicted program execution time: 1:00:17.770775
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 5290/1000000, FPS 169.
+average_episode_rewards is 1.9492617
+win_rate is 0.0
+Predicted program execution time: 1:12:20.985812
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 6297/1000000, FPS 174.
+average_episode_rewards is 1.905447
+win_rate is 0.0
+Predicted program execution time: 1:16:13.146761
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 7312/1000000, FPS 174.
+average_episode_rewards is 1.9653897
+win_rate is 0.0
+Predicted program execution time: 1:22:12.808054
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 8332/1000000, FPS 174.
+average_episode_rewards is 2.095418
+win_rate is 0.0
+Predicted program execution time: 1:26:14.113426
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 9342/1000000, FPS 173.
+average_episode_rewards is 2.143534
+win_rate is 0.0
+Predicted program execution time: 1:32:04.005394
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 10361/1000000, FPS 171.
+average_episode_rewards is 2.2544305
+win_rate is 0.0
+Predicted program execution time: 1:36:29.821484
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 11370/1000000, FPS 170.
+average_episode_rewards is 2.223741
+win_rate is 0.0
+Predicted program execution time: 1:40:32.644559
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 12379/1000000, FPS 168.
+average_episode_rewards is 2.2281604
+win_rate is 0.0
+Predicted program execution time: 1:44:19.070714
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 13387/1000000, FPS 166.
+average_episode_rewards is 2.3439534
+win_rate is 0.0
+Predicted program execution time: 1:46:37.297331
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 14393/1000000, FPS 165.
+average_episode_rewards is 2.4290385
+win_rate is 0.0
+Predicted program execution time: 1:48:14.632999
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 15415/1000000, FPS 163.
+average_episode_rewards is 2.742571
+win_rate is 0.0
+Predicted program execution time: 1:50:53.819134
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 16416/1000000, FPS 162.
+average_episode_rewards is 2.8545508
+win_rate is 0.0
+Predicted program execution time: 1:52:55.675557
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 17421/1000000, FPS 160.
+average_episode_rewards is 2.7160568
+win_rate is 0.0
+Predicted program execution time: 1:53:39.787297
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 18439/1000000, FPS 159.
+average_episode_rewards is 2.8015587
+win_rate is 0.0
+Predicted program execution time: 1:55:05.515439
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 19453/1000000, FPS 158.
+average_episode_rewards is 2.99403
+win_rate is 0.0
+Predicted program execution time: 1:55:29.256467
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 20465/1000000, FPS 157.
+average_episode_rewards is 3.0735066
+win_rate is 0.0
+Predicted program execution time: 1:55:10.695264
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 21487/1000000, FPS 156.
+average_episode_rewards is 3.1109753
+win_rate is 0.0
+Predicted program execution time: 1:56:47.983078
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 22489/1000000, FPS 155.
+average_episode_rewards is 3.5689573
+win_rate is 0.0
+Predicted program execution time: 1:57:20.679675
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 23497/1000000, FPS 154.
+average_episode_rewards is 3.5959232
+win_rate is 0.0
+Predicted program execution time: 1:57:32.220704
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 24508/1000000, FPS 153.
+average_episode_rewards is 3.77458
+win_rate is 0.0
+Predicted program execution time: 1:59:10.697504
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 25527/1000000, FPS 152.
+average_episode_rewards is 4.0143886
+win_rate is 0.0
+Predicted program execution time: 2:00:17.584746
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 26545/1000000, FPS 152.
+average_episode_rewards is 4.0383697
+win_rate is 0.0
+Predicted program execution time: 1:58:51.861867
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 27550/1000000, FPS 151.
+average_episode_rewards is 4.2589927
+win_rate is 0.0
+Predicted program execution time: 1:58:51.477919
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 28550/1000000, FPS 151.
+average_episode_rewards is 4.696043
+win_rate is 0.0
+Predicted program execution time: 1:56:01.522332
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 29553/1000000, FPS 151.
+average_episode_rewards is 4.5671463
+win_rate is 0.0
+Predicted program execution time: 1:55:34.493914
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 30562/1000000, FPS 150.
+average_episode_rewards is 4.502398
+win_rate is 0.0
+Predicted program execution time: 1:54:47.143151
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 31571/1000000, FPS 150.
+average_episode_rewards is 4.7991605
+win_rate is 0.0
+Predicted program execution time: 1:55:37.084940
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 32584/1000000, FPS 150.
+average_episode_rewards is 5.2667994
+win_rate is 0.0
+Predicted program execution time: 1:55:19.569275
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 33589/1000000, FPS 149.
+average_episode_rewards is 5.1314864
+win_rate is 0.0
+Predicted program execution time: 1:56:03.100436
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 34606/1000000, FPS 149.
+average_episode_rewards is 5.370504
+win_rate is 0.0
+Predicted program execution time: 1:55:51.809981
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 35611/1000000, FPS 149.
+average_episode_rewards is 5.5854745
+win_rate is 0.0
+Predicted program execution time: 1:55:38.955837
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 36689/1000000, FPS 149.
+average_episode_rewards is 5.839277
+win_rate is 0.0
+Predicted program execution time: 1:56:08.767636
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 37697/1000000, FPS 149.
+average_episode_rewards is 5.9556594
+win_rate is 0.0
+Predicted program execution time: 1:55:50.311114
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 38703/1000000, FPS 149.
+average_episode_rewards is 6.277578
+win_rate is 0.0
+Predicted program execution time: 1:53:05.453303
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 39723/1000000, FPS 149.
+average_episode_rewards is 6.3424463
+win_rate is 0.0
+Predicted program execution time: 1:50:20.359557
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 40724/1000000, FPS 149.
+average_episode_rewards is 6.3937902
+win_rate is 0.0
+Predicted program execution time: 1:49:52.737050
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 41738/1000000, FPS 149.
+average_episode_rewards is 6.868314
+win_rate is 0.0
+Predicted program execution time: 1:50:47.336361
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 42747/1000000, FPS 149.
+average_episode_rewards is 6.686297
+win_rate is 0.0
+Predicted program execution time: 1:49:41.820851
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 43758/1000000, FPS 149.
+average_episode_rewards is 6.913836
+win_rate is 0.0
+Predicted program execution time: 1:50:01.948084
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 44770/1000000, FPS 150.
+average_episode_rewards is 7.0390234
+win_rate is 0.0
+Predicted program execution time: 1:47:29.767014
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 45782/1000000, FPS 150.
+average_episode_rewards is 7.0356197
+win_rate is 0.0
+Predicted program execution time: 1:46:32.604111
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 46900/1000000, FPS 151.
+average_episode_rewards is 7.051799
+win_rate is 0.0
+Predicted program execution time: 1:46:39.828957
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 47909/1000000, FPS 151.
+average_episode_rewards is 7.5706778
+win_rate is 0.0
+Predicted program execution time: 1:45:12.528945
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 48909/1000000, FPS 152.
+average_episode_rewards is 7.518191
+win_rate is 0.0
+Predicted program execution time: 1:44:26.282559
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 49921/1000000, FPS 152.
+average_episode_rewards is 7.9320545
+win_rate is 0.0
+Predicted program execution time: 1:44:39.570870
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 50939/1000000, FPS 152.
+average_episode_rewards is 7.7937646
+win_rate is 0.0
+Predicted program execution time: 1:44:52.801295
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 51941/1000000, FPS 152.
+average_episode_rewards is 7.7777777
+win_rate is 0.0
+Predicted program execution time: 1:44:49.340963
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 52947/1000000, FPS 153.
+average_episode_rewards is 7.9526024
+win_rate is 0.0
+Predicted program execution time: 1:45:25.361708
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 53974/1000000, FPS 153.
+average_episode_rewards is 8.076738
+win_rate is 0.0
+Predicted program execution time: 1:46:55.149520
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 54978/1000000, FPS 153.
+average_episode_rewards is 8.10209
+win_rate is 0.0
+Predicted program execution time: 1:47:10.376968
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 55985/1000000, FPS 153.
+average_episode_rewards is 8.21395
+win_rate is 0.0
+Predicted program execution time: 1:47:26.910530
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 56986/1000000, FPS 153.
+average_episode_rewards is 8.0739975
+win_rate is 0.0
+Predicted program execution time: 1:48:14.433933
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 57998/1000000, FPS 153.
+average_episode_rewards is 8.254196
+win_rate is 0.0
+Predicted program execution time: 1:47:23.179525
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 59003/1000000, FPS 153.
+average_episode_rewards is 8.139997
+win_rate is 0.0
+Predicted program execution time: 1:47:29.621001
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 60007/1000000, FPS 153.
+average_episode_rewards is 8.183891
+win_rate is 0.0
+Predicted program execution time: 1:47:37.815527
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 61016/1000000, FPS 153.
+average_episode_rewards is 8.2846575
+win_rate is 0.0
+Predicted program execution time: 1:48:55.480856
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 62103/1000000, FPS 153.
+average_episode_rewards is 8.385611
+win_rate is 0.0
+Predicted program execution time: 1:47:28.919340
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 63218/1000000, FPS 153.
+average_episode_rewards is 8.119219
+win_rate is 0.0
+Predicted program execution time: 1:46:31.303950
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 64218/1000000, FPS 154.
+average_episode_rewards is 8.364092
+win_rate is 0.0
+Predicted program execution time: 1:44:28.559118
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 65295/1000000, FPS 152.
+average_episode_rewards is 8.343985
+win_rate is 0.0
+Predicted program execution time: 2:24:19.574465
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 66312/1000000, FPS 152.
+average_episode_rewards is 8.536691
+win_rate is 0.0
+Predicted program execution time: 2:08:37.799682
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 67316/1000000, FPS 152.
+average_episode_rewards is 8.44792
+win_rate is 0.0
+Predicted program execution time: 1:59:55.357641
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 68318/1000000, FPS 153.
+average_episode_rewards is 8.433253
+win_rate is 0.0
+Predicted program execution time: 1:54:03.183619
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 69326/1000000, FPS 153.
+average_episode_rewards is 8.457086
+win_rate is 0.0
+Predicted program execution time: 1:50:35.945590
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 70401/1000000, FPS 153.
+average_episode_rewards is 8.514696
+win_rate is 0.0
+Predicted program execution time: 1:46:36.059970
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 71409/1000000, FPS 153.
+average_episode_rewards is 8.356992
+win_rate is 0.0
+Predicted program execution time: 1:44:03.233958
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 72430/1000000, FPS 154.
+average_episode_rewards is 8.194463
+win_rate is 0.0
+Predicted program execution time: 1:40:03.987479
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 73442/1000000, FPS 154.
+average_episode_rewards is 8.756115
+win_rate is 0.0
+Predicted program execution time: 1:39:05.261525
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 74463/1000000, FPS 154.
+average_episode_rewards is 8.443587
+win_rate is 0.0
+Predicted program execution time: 1:38:00.409537
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 75482/1000000, FPS 154.
+average_episode_rewards is 8.610957
+win_rate is 0.0
+Predicted program execution time: 1:35:59.297760
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 76594/1000000, FPS 155.
+average_episode_rewards is 8.95704
+win_rate is 0.0
+Predicted program execution time: 1:34:37.079681
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 77685/1000000, FPS 155.
+average_episode_rewards is 8.655373
+win_rate is 0.0
+Predicted program execution time: 1:34:44.915624
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 78762/1000000, FPS 156.
+average_episode_rewards is 8.706429
+win_rate is 0.0
+Predicted program execution time: 1:34:27.381999
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 79776/1000000, FPS 156.
+average_episode_rewards is 8.732215
+win_rate is 0.0
+Predicted program execution time: 1:35:11.351291
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 80801/1000000, FPS 156.
+average_episode_rewards is 8.74525
+win_rate is 0.0
+Predicted program execution time: 1:35:01.041735
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 81815/1000000, FPS 156.
+average_episode_rewards is 8.425114
+win_rate is 0.0
+Predicted program execution time: 1:36:30.272553
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 82929/1000000, FPS 156.
+average_episode_rewards is 8.728124
+win_rate is 0.0
+Predicted program execution time: 1:36:41.112224
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 84042/1000000, FPS 156.
+average_episode_rewards is 8.699772
+win_rate is 0.0
+Predicted program execution time: 1:35:54.982488
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 85045/1000000, FPS 157.
+average_episode_rewards is 8.520384
+win_rate is 0.0
+Predicted program execution time: 1:36:35.016843
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 86075/1000000, FPS 157.
+average_episode_rewards is 8.850976
+win_rate is 0.0
+Predicted program execution time: 1:35:27.446036
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 87122/1000000, FPS 157.
+average_episode_rewards is 8.580984
+win_rate is 0.0
+Predicted program execution time: 1:33:38.735954
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 88239/1000000, FPS 157.
+average_episode_rewards is 8.730113
+win_rate is 0.0
+Predicted program execution time: 1:31:13.886018
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 89258/1000000, FPS 158.
+average_episode_rewards is 8.526016
+win_rate is 0.0
+Predicted program execution time: 1:32:46.057279
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 90279/1000000, FPS 158.
+average_episode_rewards is 8.694645
+win_rate is 0.0
+Predicted program execution time: 1:33:07.816655
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 91289/1000000, FPS 158.
+average_episode_rewards is 8.638489
+win_rate is 0.0
+Predicted program execution time: 1:33:06.710367
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 92289/1000000, FPS 158.
+average_episode_rewards is 8.9128685
+win_rate is 0.0
+Predicted program execution time: 1:34:02.126477
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 93329/1000000, FPS 159.
+average_episode_rewards is 8.628133
+win_rate is 0.0
+Predicted program execution time: 1:32:24.960799
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 94342/1000000, FPS 159.
+average_episode_rewards is 8.781773
+win_rate is 0.0
+Predicted program execution time: 1:31:27.287088
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 95354/1000000, FPS 159.
+average_episode_rewards is 8.938305
+win_rate is 0.0
+Predicted program execution time: 1:30:04.360686
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 96366/1000000, FPS 159.
+average_episode_rewards is 8.3624525
+win_rate is 0.0
+Predicted program execution time: 1:30:20.881545
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 97371/1000000, FPS 159.
+average_episode_rewards is 8.608633
+win_rate is 0.0
+Predicted program execution time: 1:29:56.932017
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 98393/1000000, FPS 160.
+average_episode_rewards is 8.83853
+win_rate is 0.0
+Predicted program execution time: 1:30:44.926438
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 99415/1000000, FPS 160.
+average_episode_rewards is 8.768757
+win_rate is 0.0
+Predicted program execution time: 1:29:41.757513
+================================================================================
+8m_vs_9m_100012_q_network.pt file saves complete
+8m_vs_9m_100012_mixer.pt file saves complete
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 100418/1000000, FPS 160.
+average_episode_rewards is 8.8303
+win_rate is 0.0
+Predicted program execution time: 1:30:47.459844
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 101431/1000000, FPS 160.
+average_episode_rewards is 9.05422
+win_rate is 0.0
+Predicted program execution time: 1:32:58.644632
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 102450/1000000, FPS 160.
+average_episode_rewards is 9.086754
+win_rate is 0.0
+Predicted program execution time: 1:34:09.519153
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 103459/1000000, FPS 160.
+average_episode_rewards is 8.770583
+win_rate is 0.0
+Predicted program execution time: 1:33:36.634127
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 104479/1000000, FPS 160.
+average_episode_rewards is 8.526079
+win_rate is 0.0
+Predicted program execution time: 1:34:32.531967
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 105515/1000000, FPS 160.
+average_episode_rewards is 8.92326
+win_rate is 0.0
+Predicted program execution time: 1:35:48.367331
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 106522/1000000, FPS 160.
+average_episode_rewards is 8.758358
+win_rate is 0.0
+Predicted program execution time: 1:36:13.251339
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 107534/1000000, FPS 161.
+average_episode_rewards is 9.205848
+win_rate is 0.0
+Predicted program execution time: 1:36:53.818498
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 108534/1000000, FPS 161.
+average_episode_rewards is 8.668511
+win_rate is 0.0
+Predicted program execution time: 1:36:31.877728
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 109538/1000000, FPS 161.
+average_episode_rewards is 8.641887
+win_rate is 0.0
+Predicted program execution time: 1:37:50.577821
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 110583/1000000, FPS 161.
+average_episode_rewards is 8.76629
+win_rate is 0.0
+Predicted program execution time: 1:37:33.236212
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 111593/1000000, FPS 161.
+average_episode_rewards is 8.789449
+win_rate is 0.0
+Predicted program execution time: 1:37:21.136507
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 112616/1000000, FPS 161.
+average_episode_rewards is 8.994499
+win_rate is 0.0
+Predicted program execution time: 1:37:50.222234
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 113625/1000000, FPS 161.
+average_episode_rewards is 8.57554
+win_rate is 0.0
+Predicted program execution time: 1:38:44.773846
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 114701/1000000, FPS 161.
+average_episode_rewards is 8.679288
+win_rate is 0.0
+Predicted program execution time: 1:37:53.790089
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 115706/1000000, FPS 161.
+average_episode_rewards is 8.761832
+win_rate is 0.0
+Predicted program execution time: 1:38:17.337923
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 116736/1000000, FPS 161.
+average_episode_rewards is 8.991698
+win_rate is 0.0
+Predicted program execution time: 1:37:52.772180
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 117752/1000000, FPS 161.
+average_episode_rewards is 8.855087
+win_rate is 0.0
+Predicted program execution time: 1:37:46.973485
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 118755/1000000, FPS 161.
+average_episode_rewards is 9.349488
+win_rate is 0.0
+Predicted program execution time: 1:38:23.656658
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 119757/1000000, FPS 161.
+average_episode_rewards is 9.135933
+win_rate is 0.0
+Predicted program execution time: 1:38:01.690974
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 120791/1000000, FPS 161.
+average_episode_rewards is 9.6546755
+win_rate is 0.0
+Predicted program execution time: 1:34:23.012032
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 121814/1000000, FPS 161.
+average_episode_rewards is 8.653876
+win_rate is 0.0
+Predicted program execution time: 1:34:09.354086
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 122893/1000000, FPS 161.
+average_episode_rewards is 9.433616
+win_rate is 0.0
+Predicted program execution time: 1:34:15.562972
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 123897/1000000, FPS 161.
+average_episode_rewards is 8.807231
+win_rate is 0.0
+Predicted program execution time: 1:35:20.011538
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 124914/1000000, FPS 162.
+average_episode_rewards is 9.520538
+win_rate is 0.0
+Predicted program execution time: 1:34:59.817332
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 125933/1000000, FPS 162.
+average_episode_rewards is 9.05459
+win_rate is 0.0
+Predicted program execution time: 1:35:12.482538
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 126950/1000000, FPS 162.
+average_episode_rewards is 9.6546755
+win_rate is 0.027777777777777776
+Predicted program execution time: 1:35:12.861832
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 127962/1000000, FPS 162.
+average_episode_rewards is 9.023854
+win_rate is 0.0
+Predicted program execution time: 1:35:43.381514
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 128990/1000000, FPS 162.
+average_episode_rewards is 9.286847
+win_rate is 0.0
+Predicted program execution time: 1:35:34.490931
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 129996/1000000, FPS 161.
+average_episode_rewards is 9.0352125
+win_rate is 0.0
+Predicted program execution time: 2:36:58.487643
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 131014/1000000, FPS 161.
+average_episode_rewards is 8.878417
+win_rate is 0.0
+Predicted program execution time: 2:15:27.354916
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 132023/1000000, FPS 161.
+average_episode_rewards is 9.395314
+win_rate is 0.0
+Predicted program execution time: 1:59:15.914308
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 133098/1000000, FPS 161.
+average_episode_rewards is 9.277547
+win_rate is 0.0
+Predicted program execution time: 1:49:42.514028
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 134110/1000000, FPS 161.
+average_episode_rewards is 9.504624
+win_rate is 0.0
+Predicted program execution time: 1:43:59.263269
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 135112/1000000, FPS 161.
+average_episode_rewards is 9.613495
+win_rate is 0.0
+Predicted program execution time: 1:38:49.419384
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 136116/1000000, FPS 161.
+average_episode_rewards is 9.1924
+win_rate is 0.0
+Predicted program execution time: 1:36:56.479851
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 137131/1000000, FPS 161.
+average_episode_rewards is 9.340745
+win_rate is 0.0
+Predicted program execution time: 1:35:48.669787
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 138143/1000000, FPS 161.
+average_episode_rewards is 9.816459
+win_rate is 0.024390243902439025
+Predicted program execution time: 1:31:28.103448
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 139168/1000000, FPS 161.
+average_episode_rewards is 9.3
+win_rate is 0.0
+Predicted program execution time: 1:29:48.024506
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 140243/1000000, FPS 161.
+average_episode_rewards is 9.285118
+win_rate is 0.0
+Predicted program execution time: 1:28:39.825773
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 141259/1000000, FPS 162.
+average_episode_rewards is 9.401955
+win_rate is 0.0
+Predicted program execution time: 1:28:17.430203
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 142281/1000000, FPS 162.
+average_episode_rewards is 9.686879
+win_rate is 0.023809523809523808
+Predicted program execution time: 1:28:29.723729
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 143294/1000000, FPS 162.
+average_episode_rewards is 9.67893
+win_rate is 0.02857142857142857
+Predicted program execution time: 1:28:19.707480
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 144297/1000000, FPS 162.
+average_episode_rewards is 9.702754
+win_rate is 0.0
+Predicted program execution time: 1:27:26.091653
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 145318/1000000, FPS 162.
+average_episode_rewards is 9.488181
+win_rate is 0.0
+Predicted program execution time: 1:27:38.912812
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 146318/1000000, FPS 162.
+average_episode_rewards is 9.646345
+win_rate is 0.0
+Predicted program execution time: 1:28:47.078018
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 147335/1000000, FPS 162.
+average_episode_rewards is 9.737221
+win_rate is 0.02631578947368421
+Predicted program execution time: 1:29:20.814197
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 148336/1000000, FPS 162.
+average_episode_rewards is 9.640989
+win_rate is 0.0
+Predicted program execution time: 1:29:26.242830
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 149368/1000000, FPS 162.
+average_episode_rewards is 9.604694
+win_rate is 0.0
+Predicted program execution time: 1:28:46.692026
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 150374/1000000, FPS 162.
+average_episode_rewards is 9.541782
+win_rate is 0.0
+Predicted program execution time: 1:27:53.577141
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 151474/1000000, FPS 162.
+average_episode_rewards is 9.441122
+win_rate is 0.0
+Predicted program execution time: 1:26:53.293624
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 152491/1000000, FPS 162.
+average_episode_rewards is 9.76425
+win_rate is 0.0
+Predicted program execution time: 1:27:36.052093
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 153507/1000000, FPS 162.
+average_episode_rewards is 10.107037
+win_rate is 0.0
+Predicted program execution time: 1:28:11.390288
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 154508/1000000, FPS 162.
+average_episode_rewards is 9.849949
+win_rate is 0.0
+Predicted program execution time: 1:29:56.321935
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 155526/1000000, FPS 162.
+average_episode_rewards is 9.873042
+win_rate is 0.0
+Predicted program execution time: 1:29:04.874384
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 156547/1000000, FPS 162.
+average_episode_rewards is 9.727465
+win_rate is 0.029411764705882353
+Predicted program execution time: 1:28:38.206432
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 157553/1000000, FPS 162.
+average_episode_rewards is 10.014388
+win_rate is 0.0
+Predicted program execution time: 1:27:44.101263
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 158554/1000000, FPS 163.
+average_episode_rewards is 10.473076
+win_rate is 0.030303030303030304
+Predicted program execution time: 1:25:40.010044
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 159574/1000000, FPS 163.
+average_episode_rewards is 10.32412
+win_rate is 0.05263157894736842
+Predicted program execution time: 1:26:10.372604
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 160684/1000000, FPS 163.
+average_episode_rewards is 10.589151
+win_rate is 0.05405405405405406
+Predicted program execution time: 1:25:20.933855
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 161703/1000000, FPS 163.
+average_episode_rewards is 10.383576
+win_rate is 0.0
+Predicted program execution time: 1:24:55.587204
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 162708/1000000, FPS 163.
+average_episode_rewards is 10.27338
+win_rate is 0.029411764705882353
+Predicted program execution time: 1:24:38.147847
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 163716/1000000, FPS 163.
+average_episode_rewards is 10.463932
+win_rate is 0.05405405405405406
+Predicted program execution time: 1:24:18.851961
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 164737/1000000, FPS 163.
+average_episode_rewards is 10.067277
+win_rate is 0.0
+Predicted program execution time: 1:25:21.081385
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 165748/1000000, FPS 163.
+average_episode_rewards is 10.403677
+win_rate is 0.027777777777777776
+Predicted program execution time: 1:25:30.411622
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 166762/1000000, FPS 163.
+average_episode_rewards is 10.282469
+win_rate is 0.0
+Predicted program execution time: 1:25:56.126229
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 167785/1000000, FPS 163.
+average_episode_rewards is 10.511628
+win_rate is 0.046511627906976744
+Predicted program execution time: 1:25:46.912454
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 168807/1000000, FPS 163.
+average_episode_rewards is 9.893222
+win_rate is 0.0
+Predicted program execution time: 1:25:15.435481
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 169825/1000000, FPS 163.
+average_episode_rewards is 10.436451
+win_rate is 0.027777777777777776
+Predicted program execution time: 1:25:02.310503
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 170830/1000000, FPS 163.
+average_episode_rewards is 10.612484
+win_rate is 0.05405405405405406
+Predicted program execution time: 1:25:41.907022
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 171845/1000000, FPS 163.
+average_episode_rewards is 9.751558
+win_rate is 0.0
+Predicted program execution time: 1:24:48.492213
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 172853/1000000, FPS 164.
+average_episode_rewards is 10.556073
+win_rate is 0.058823529411764705
+Predicted program execution time: 1:24:18.451065
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 173909/1000000, FPS 164.
+average_episode_rewards is 10.608812
+win_rate is 0.03125
+Predicted program execution time: 1:22:50.908635
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 174914/1000000, FPS 164.
+average_episode_rewards is 10.223764
+win_rate is 0.034482758620689655
+Predicted program execution time: 1:22:16.011367
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 175921/1000000, FPS 164.
+average_episode_rewards is 11.163309
+win_rate is 0.075
+Predicted program execution time: 1:23:02.146852
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 176922/1000000, FPS 164.
+average_episode_rewards is 10.949143
+win_rate is 0.034482758620689655
+Predicted program execution time: 1:21:46.701499
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 177932/1000000, FPS 164.
+average_episode_rewards is 11.08222
+win_rate is 0.07142857142857142
+Predicted program execution time: 1:21:00.721430
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 178933/1000000, FPS 164.
+average_episode_rewards is 10.332733
+win_rate is 0.03125
+Predicted program execution time: 1:19:14.316419
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 179935/1000000, FPS 164.
+average_episode_rewards is 10.078047
+win_rate is 0.0
+Predicted program execution time: 1:19:35.696692
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 180953/1000000, FPS 164.
+average_episode_rewards is 11.807913
+win_rate is 0.125
+Predicted program execution time: 1:20:02.100137
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 181962/1000000, FPS 165.
+average_episode_rewards is 10.998105
+win_rate is 0.07894736842105263
+Predicted program execution time: 1:20:40.819897
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 182962/1000000, FPS 165.
+average_episode_rewards is 11.48896
+win_rate is 0.10344827586206896
+Predicted program execution time: 1:19:35.106325
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 183962/1000000, FPS 165.
+average_episode_rewards is 11.293525
+win_rate is 0.05
+Predicted program execution time: 1:19:57.721691
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 184977/1000000, FPS 165.
+average_episode_rewards is 10.629307
+win_rate is 0.02631578947368421
+Predicted program execution time: 1:20:56.492136
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 185991/1000000, FPS 165.
+average_episode_rewards is 11.353238
+win_rate is 0.05
+Predicted program execution time: 1:21:17.531432
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 186997/1000000, FPS 165.
+average_episode_rewards is 11.430682
+win_rate is 0.10810810810810811
+Predicted program execution time: 1:21:53.433385
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 188009/1000000, FPS 165.
+average_episode_rewards is 10.678957
+win_rate is 0.03125
+Predicted program execution time: 1:20:53.840912
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 189061/1000000, FPS 165.
+average_episode_rewards is 10.614278
+win_rate is 0.02564102564102564
+Predicted program execution time: 1:20:42.677600
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 190082/1000000, FPS 165.
+average_episode_rewards is 10.786823
+win_rate is 0.05263157894736842
+Predicted program execution time: 1:21:39.905350
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 191091/1000000, FPS 165.
+average_episode_rewards is 10.775926
+win_rate is 0.024390243902439025
+Predicted program execution time: 1:22:43.837624
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 192094/1000000, FPS 165.
+average_episode_rewards is 11.296563
+win_rate is 0.05555555555555555
+Predicted program execution time: 1:22:14.344767
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 193108/1000000, FPS 165.
+average_episode_rewards is 11.805037
+win_rate is 0.125
+Predicted program execution time: 1:21:57.182294
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 194130/1000000, FPS 165.
+average_episode_rewards is 10.706551
+win_rate is 0.05263157894736842
+Predicted program execution time: 1:22:06.585761
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 195136/1000000, FPS 164.
+average_episode_rewards is 11.6865635
+win_rate is 0.13513513513513514
+Predicted program execution time: 1:49:14.386908
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 196154/1000000, FPS 164.
+average_episode_rewards is 12.029515
+win_rate is 0.1282051282051282
+Predicted program execution time: 1:42:28.017703
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 197167/1000000, FPS 164.
+average_episode_rewards is 11.351352
+win_rate is 0.08108108108108109
+Predicted program execution time: 1:38:08.724751
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 198182/1000000, FPS 164.
+average_episode_rewards is 11.56259
+win_rate is 0.1
+Predicted program execution time: 1:33:59.471155
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 199198/1000000, FPS 164.
+average_episode_rewards is 11.13669
+win_rate is 0.08108108108108109
+Predicted program execution time: 1:31:16.565480
+================================================================================
+8m_vs_9m_200023_q_network.pt file saves complete
+8m_vs_9m_200023_mixer.pt file saves complete
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 200222/1000000, FPS 164.
+average_episode_rewards is 11.071359
+win_rate is 0.02702702702702703
+Predicted program execution time: 1:27:45.105897
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 201233/1000000, FPS 164.
+average_episode_rewards is 11.084752
+win_rate is 0.07317073170731707
+Predicted program execution time: 1:27:32.659483
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 202252/1000000, FPS 164.
+average_episode_rewards is 11.311968
+win_rate is 0.06060606060606061
+Predicted program execution time: 1:27:02.790074
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 203256/1000000, FPS 164.
+average_episode_rewards is 11.417882
+win_rate is 0.05714285714285714
+Predicted program execution time: 1:26:21.256436
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 204277/1000000, FPS 164.
+average_episode_rewards is 11.627337
+win_rate is 0.075
+Predicted program execution time: 1:26:21.995323
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 205278/1000000, FPS 164.
+average_episode_rewards is 11.482015
+win_rate is 0.08333333333333333
+Predicted program execution time: 1:25:49.677834
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 206299/1000000, FPS 164.
+average_episode_rewards is 12.513669
+win_rate is 0.175
+Predicted program execution time: 1:25:39.096042
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 207304/1000000, FPS 164.
+average_episode_rewards is 12.202158
+win_rate is 0.15
+Predicted program execution time: 1:26:48.608240
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 208332/1000000, FPS 164.
+average_episode_rewards is 10.742667
+win_rate is 0.05128205128205128
+Predicted program execution time: 1:26:04.954427
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 209352/1000000, FPS 164.
+average_episode_rewards is 10.964029
+win_rate is 0.05
+Predicted program execution time: 1:25:45.551915
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 210362/1000000, FPS 164.
+average_episode_rewards is 12.296563
+win_rate is 0.1388888888888889
+Predicted program execution time: 1:24:24.738437
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 211376/1000000, FPS 164.
+average_episode_rewards is 11.086156
+win_rate is 0.04878048780487805
+Predicted program execution time: 1:24:49.635579
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 212396/1000000, FPS 164.
+average_episode_rewards is 11.519916
+win_rate is 0.0975609756097561
+Predicted program execution time: 1:25:14.196165
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 213408/1000000, FPS 164.
+average_episode_rewards is 11.849475
+win_rate is 0.10256410256410256
+Predicted program execution time: 1:25:16.578039
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 214421/1000000, FPS 164.
+average_episode_rewards is 11.647676
+win_rate is 0.10810810810810811
+Predicted program execution time: 1:25:13.051346
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 215500/1000000, FPS 164.
+average_episode_rewards is 12.809445
+win_rate is 0.23076923076923078
+Predicted program execution time: 1:25:43.957365
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 216518/1000000, FPS 164.
+average_episode_rewards is 12.185251
+win_rate is 0.15625
+Predicted program execution time: 1:23:51.653706
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 217531/1000000, FPS 164.
+average_episode_rewards is 12.584173
+win_rate is 0.175
+Predicted program execution time: 1:24:35.343400
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 218540/1000000, FPS 164.
+average_episode_rewards is 11.389388
+win_rate is 0.0625
+Predicted program execution time: 1:23:19.716660
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 219548/1000000, FPS 164.
+average_episode_rewards is 11.911336
+win_rate is 0.13513513513513514
+Predicted program execution time: 1:24:17.282310
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 220566/1000000, FPS 164.
+average_episode_rewards is 11.516547
+win_rate is 0.05714285714285714
+Predicted program execution time: 1:23:43.933438
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 221588/1000000, FPS 164.
+average_episode_rewards is 11.957186
+win_rate is 0.14634146341463414
+Predicted program execution time: 1:24:58.648680
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 222602/1000000, FPS 164.
+average_episode_rewards is 12.422661
+win_rate is 0.1875
+Predicted program execution time: 1:23:54.618150
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 223616/1000000, FPS 164.
+average_episode_rewards is 11.965118
+win_rate is 0.09090909090909091
+Predicted program execution time: 1:24:12.707944
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 224638/1000000, FPS 164.
+average_episode_rewards is 12.941648
+win_rate is 0.2222222222222222
+Predicted program execution time: 1:24:19.532838
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 225641/1000000, FPS 164.
+average_episode_rewards is 12.485099
+win_rate is 0.11428571428571428
+Predicted program execution time: 1:24:42.829480
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 226658/1000000, FPS 164.
+average_episode_rewards is 12.072378
+win_rate is 0.12121212121212122
+Predicted program execution time: 1:24:53.504611
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 227664/1000000, FPS 164.
+average_episode_rewards is 12.892887
+win_rate is 0.2222222222222222
+Predicted program execution time: 1:25:32.391188
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 228669/1000000, FPS 164.
+average_episode_rewards is 12.628666
+win_rate is 0.15384615384615385
+Predicted program execution time: 1:24:49.113383
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 229679/1000000, FPS 164.
+average_episode_rewards is 14.063949
+win_rate is 0.3333333333333333
+Predicted program execution time: 1:23:57.588800
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 230682/1000000, FPS 164.
+average_episode_rewards is 11.65701
+win_rate is 0.10810810810810811
+Predicted program execution time: 1:24:33.709786
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 231685/1000000, FPS 164.
+average_episode_rewards is 13.165467
+win_rate is 0.21052631578947367
+Predicted program execution time: 1:24:50.219027
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 232709/1000000, FPS 164.
+average_episode_rewards is 12.889209
+win_rate is 0.2
+Predicted program execution time: 1:25:35.934375
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 233717/1000000, FPS 164.
+average_episode_rewards is 12.339568
+win_rate is 0.175
+Predicted program execution time: 1:25:20.131993
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 234724/1000000, FPS 163.
+average_episode_rewards is 12.6876955
+win_rate is 0.15384615384615385
+Predicted program execution time: 1:25:08.146619
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 235734/1000000, FPS 163.
+average_episode_rewards is 13.377298
+win_rate is 0.2777777777777778
+Predicted program execution time: 1:24:58.541270
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 236736/1000000, FPS 163.
+average_episode_rewards is 12.22874
+win_rate is 0.1282051282051282
+Predicted program execution time: 1:25:05.222376
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 237759/1000000, FPS 163.
+average_episode_rewards is 13.195297
+win_rate is 0.2682926829268293
+Predicted program execution time: 1:24:57.761417
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 238771/1000000, FPS 163.
+average_episode_rewards is 13.157183
+win_rate is 0.24242424242424243
+Predicted program execution time: 1:24:42.881670
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 239795/1000000, FPS 163.
+average_episode_rewards is 13.000194
+win_rate is 0.24324324324324326
+Predicted program execution time: 1:24:57.628099
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 240813/1000000, FPS 163.
+average_episode_rewards is 12.002808
+win_rate is 0.17073170731707318
+Predicted program execution time: 1:25:16.327780
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 241822/1000000, FPS 163.
+average_episode_rewards is 13.211585
+win_rate is 0.20512820512820512
+Predicted program execution time: 1:22:48.075009
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 242830/1000000, FPS 163.
+average_episode_rewards is 13.463936
+win_rate is 0.3076923076923077
+Predicted program execution time: 1:23:06.980692
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 243839/1000000, FPS 163.
+average_episode_rewards is 12.469785
+win_rate is 0.15
+Predicted program execution time: 1:23:42.377004
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 244863/1000000, FPS 163.
+average_episode_rewards is 11.807685
+win_rate is 0.12195121951219512
+Predicted program execution time: 1:23:39.121819
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 245879/1000000, FPS 163.
+average_episode_rewards is 14.330177
+win_rate is 0.34210526315789475
+Predicted program execution time: 1:23:23.199639
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 246886/1000000, FPS 163.
+average_episode_rewards is 11.764029
+win_rate is 0.1
+Predicted program execution time: 1:23:49.494139
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 247907/1000000, FPS 163.
+average_episode_rewards is 12.84857
+win_rate is 0.24390243902439024
+Predicted program execution time: 1:24:52.405973
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 248912/1000000, FPS 163.
+average_episode_rewards is 13.548055
+win_rate is 0.2564102564102564
+Predicted program execution time: 1:24:35.347805
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 249916/1000000, FPS 163.
+average_episode_rewards is 12.737011
+win_rate is 0.2222222222222222
+Predicted program execution time: 1:23:42.123060
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 250931/1000000, FPS 163.
+average_episode_rewards is 13.787051
+win_rate is 0.35
+Predicted program execution time: 1:23:56.185544
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 251947/1000000, FPS 163.
+average_episode_rewards is 13.398561
+win_rate is 0.2857142857142857
+Predicted program execution time: 1:22:34.008723
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 252970/1000000, FPS 163.
+average_episode_rewards is 14.080795
+win_rate is 0.3333333333333333
+Predicted program execution time: 1:21:48.695067
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 253982/1000000, FPS 163.
+average_episode_rewards is 13.967903
+win_rate is 0.3076923076923077
+Predicted program execution time: 1:22:06.572701
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 254990/1000000, FPS 163.
+average_episode_rewards is 13.434422
+win_rate is 0.28205128205128205
+Predicted program execution time: 1:21:17.685722
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 256051/1000000, FPS 163.
+average_episode_rewards is 14.910364
+win_rate is 0.43243243243243246
+Predicted program execution time: 1:20:59.678116
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 257058/1000000, FPS 163.
+average_episode_rewards is 13.609866
+win_rate is 0.3142857142857143
+Predicted program execution time: 1:21:20.995008
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 258080/1000000, FPS 163.
+average_episode_rewards is 14.032774
+win_rate is 0.3055555555555556
+Predicted program execution time: 1:21:22.341640
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 259080/1000000, FPS 163.
+average_episode_rewards is 14.234737
+win_rate is 0.34285714285714286
+Predicted program execution time: 1:21:26.649910
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 260090/1000000, FPS 162.
+average_episode_rewards is 13.033573
+win_rate is 0.19444444444444445
+Predicted program execution time: 1:53:03.256173
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 261113/1000000, FPS 162.
+average_episode_rewards is 12.495525
+win_rate is 0.1951219512195122
+Predicted program execution time: 1:39:31.986063
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 262131/1000000, FPS 162.
+average_episode_rewards is 13.065548
+win_rate is 0.2222222222222222
+Predicted program execution time: 1:30:40.509163
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 263168/1000000, FPS 162.
+average_episode_rewards is 13.42526
+win_rate is 0.25
+Predicted program execution time: 1:24:00.215624
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 264169/1000000, FPS 162.
+average_episode_rewards is 13.603938
+win_rate is 0.23684210526315788
+Predicted program execution time: 1:19:12.405011
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 265179/1000000, FPS 162.
+average_episode_rewards is 11.76386
+win_rate is 0.11764705882352941
+Predicted program execution time: 1:16:46.771116
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 266184/1000000, FPS 162.
+average_episode_rewards is 14.302159
+win_rate is 0.3157894736842105
+Predicted program execution time: 1:13:40.529325
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 267214/1000000, FPS 163.
+average_episode_rewards is 13.590115
+win_rate is 0.2564102564102564
+Predicted program execution time: 1:11:46.450511
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 268228/1000000, FPS 163.
+average_episode_rewards is 13.4654665
+win_rate is 0.3
+Predicted program execution time: 1:10:51.976914
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 269236/1000000, FPS 163.
+average_episode_rewards is 12.692123
+win_rate is 0.20512820512820512
+Predicted program execution time: 1:10:23.238836
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 270243/1000000, FPS 163.
+average_episode_rewards is 12.803598
+win_rate is 0.2
+Predicted program execution time: 1:09:16.210137
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 271243/1000000, FPS 163.
+average_episode_rewards is 13.500401
+win_rate is 0.25
+Predicted program execution time: 1:10:46.908940
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 272266/1000000, FPS 163.
+average_episode_rewards is 14.348709
+win_rate is 0.29411764705882354
+Predicted program execution time: 1:10:45.192811
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 273286/1000000, FPS 163.
+average_episode_rewards is 13.573608
+win_rate is 0.3170731707317073
+Predicted program execution time: 1:11:10.213710
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 274293/1000000, FPS 163.
+average_episode_rewards is 14.432024
+win_rate is 0.38461538461538464
+Predicted program execution time: 1:11:13.054815
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 275309/1000000, FPS 163.
+average_episode_rewards is 15.429761
+win_rate is 0.4473684210526316
+Predicted program execution time: 1:11:13.076985
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 276322/1000000, FPS 163.
+average_episode_rewards is 14.138352
+win_rate is 0.3333333333333333
+Predicted program execution time: 1:09:22.927644
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 277341/1000000, FPS 163.
+average_episode_rewards is 13.596711
+win_rate is 0.2571428571428571
+Predicted program execution time: 1:08:27.921184
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 278360/1000000, FPS 163.
+average_episode_rewards is 14.533173
+win_rate is 0.3888888888888889
+Predicted program execution time: 1:08:01.636967
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 279374/1000000, FPS 163.
+average_episode_rewards is 14.902586
+win_rate is 0.35135135135135137
+Predicted program execution time: 1:07:34.133025
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 280392/1000000, FPS 163.
+average_episode_rewards is 13.57554
+win_rate is 0.2777777777777778
+Predicted program execution time: 1:07:54.135054
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 281397/1000000, FPS 163.
+average_episode_rewards is 12.995078
+win_rate is 0.18421052631578946
+Predicted program execution time: 1:07:04.778690
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 282417/1000000, FPS 163.
+average_episode_rewards is 14.588284
+win_rate is 0.37142857142857144
+Predicted program execution time: 1:05:54.045677
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 283433/1000000, FPS 163.
+average_episode_rewards is 14.742143
+win_rate is 0.39473684210526316
+Predicted program execution time: 1:06:10.419481
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 284445/1000000, FPS 163.
+average_episode_rewards is 14.440118
+win_rate is 0.35294117647058826
+Predicted program execution time: 1:05:55.383638
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 285467/1000000, FPS 164.
+average_episode_rewards is 14.141006
+win_rate is 0.3142857142857143
+Predicted program execution time: 1:06:26.741932
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 286472/1000000, FPS 164.
+average_episode_rewards is 13.890193
+win_rate is 0.2894736842105263
+Predicted program execution time: 1:06:44.233397
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 287491/1000000, FPS 164.
+average_episode_rewards is 14.361928
+win_rate is 0.358974358974359
+Predicted program execution time: 1:07:04.833966
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 288503/1000000, FPS 164.
+average_episode_rewards is 14.258235
+win_rate is 0.34210526315789475
+Predicted program execution time: 1:07:07.797551
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 289511/1000000, FPS 164.
+average_episode_rewards is 14.108119
+win_rate is 0.3142857142857143
+Predicted program execution time: 1:07:09.788194
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 290525/1000000, FPS 164.
+average_episode_rewards is 14.913246
+win_rate is 0.38235294117647056
+Predicted program execution time: 1:06:25.608641
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 291540/1000000, FPS 164.
+average_episode_rewards is 12.789521
+win_rate is 0.1794871794871795
+Predicted program execution time: 1:06:56.319385
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 292556/1000000, FPS 164.
+average_episode_rewards is 15.7215395
+win_rate is 0.5
+Predicted program execution time: 1:06:20.898987
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 293570/1000000, FPS 164.
+average_episode_rewards is 13.753796
+win_rate is 0.3333333333333333
+Predicted program execution time: 1:06:15.155300
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 294593/1000000, FPS 164.
+average_episode_rewards is 14.420864
+win_rate is 0.375
+Predicted program execution time: 1:05:48.111457
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 295602/1000000, FPS 164.
+average_episode_rewards is 14.105263
+win_rate is 0.3157894736842105
+Predicted program execution time: 1:05:37.620076
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 296615/1000000, FPS 164.
+average_episode_rewards is 13.5563545
+win_rate is 0.25
+Predicted program execution time: 1:05:32.278444
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 297638/1000000, FPS 164.
+average_episode_rewards is 14.162701
+win_rate is 0.3333333333333333
+Predicted program execution time: 1:05:19.632151
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 298648/1000000, FPS 164.
+average_episode_rewards is 13.0444355
+win_rate is 0.17647058823529413
+Predicted program execution time: 1:04:56.727017
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 299661/1000000, FPS 164.
+average_episode_rewards is 14.504419
+win_rate is 0.4
+Predicted program execution time: 1:04:30.345076
+================================================================================
+8m_vs_9m_300046_q_network.pt file saves complete
+8m_vs_9m_300046_mixer.pt file saves complete
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 300671/1000000, FPS 164.
+average_episode_rewards is 14.043166
+win_rate is 0.3225806451612903
+Predicted program execution time: 1:03:59.588499
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 301690/1000000, FPS 165.
+average_episode_rewards is 14.080273
+win_rate is 0.2894736842105263
+Predicted program execution time: 1:03:36.688346
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 302693/1000000, FPS 165.
+average_episode_rewards is 13.857808
+win_rate is 0.3235294117647059
+Predicted program execution time: 1:04:08.455198
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 303698/1000000, FPS 165.
+average_episode_rewards is 13.219098
+win_rate is 0.21212121212121213
+Predicted program execution time: 1:04:16.814104
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 304707/1000000, FPS 165.
+average_episode_rewards is 14.738478
+win_rate is 0.3783783783783784
+Predicted program execution time: 1:04:04.593316
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 305714/1000000, FPS 165.
+average_episode_rewards is 13.178341
+win_rate is 0.2631578947368421
+Predicted program execution time: 1:04:12.952085
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 306739/1000000, FPS 165.
+average_episode_rewards is 13.934636
+win_rate is 0.3142857142857143
+Predicted program execution time: 1:04:11.063116
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 307758/1000000, FPS 165.
+average_episode_rewards is 15.115339
+win_rate is 0.41935483870967744
+Predicted program execution time: 1:03:43.078255
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 308761/1000000, FPS 165.
+average_episode_rewards is 14.706955
+win_rate is 0.36666666666666664
+Predicted program execution time: 1:03:03.027095
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 309773/1000000, FPS 165.
+average_episode_rewards is 15.023097
+win_rate is 0.42105263157894735
+Predicted program execution time: 1:03:23.528689
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 310779/1000000, FPS 165.
+average_episode_rewards is 12.451386
+win_rate is 0.14285714285714285
+Predicted program execution time: 1:03:28.569025
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 311804/1000000, FPS 165.
+average_episode_rewards is 14.17645
+win_rate is 0.3157894736842105
+Predicted program execution time: 1:03:43.983506
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 312808/1000000, FPS 165.
+average_episode_rewards is 14.411964
+win_rate is 0.39473684210526316
+Predicted program execution time: 1:03:52.703461
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 313836/1000000, FPS 165.
+average_episode_rewards is 13.097636
+win_rate is 0.21428571428571427
+Predicted program execution time: 1:02:46.195904
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 314839/1000000, FPS 165.
+average_episode_rewards is 14.126799
+win_rate is 0.34375
+Predicted program execution time: 1:02:42.752326
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 315859/1000000, FPS 165.
+average_episode_rewards is 12.510585
+win_rate is 0.14285714285714285
+Predicted program execution time: 1:02:55.548017
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 316865/1000000, FPS 166.
+average_episode_rewards is 12.633094
+win_rate is 0.16129032258064516
+Predicted program execution time: 1:04:53.387832
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 317865/1000000, FPS 166.
+average_episode_rewards is 15.7435465
+win_rate is 0.5
+Predicted program execution time: 1:05:40.328305
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 318903/1000000, FPS 166.
+average_episode_rewards is 14.144912
+win_rate is 0.32142857142857145
+Predicted program execution time: 1:05:11.860325
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 319932/1000000, FPS 166.
+average_episode_rewards is 12.279415
+win_rate is 0.16129032258064516
+Predicted program execution time: 1:06:02.958926
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 320934/1000000, FPS 166.
+average_episode_rewards is 14.707652
+win_rate is 0.42424242424242425
+Predicted program execution time: 1:06:41.802138
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 321956/1000000, FPS 166.
+average_episode_rewards is 14.69904
+win_rate is 0.375
+Predicted program execution time: 1:06:09.452848
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 323032/1000000, FPS 166.
+average_episode_rewards is 15.076597
+win_rate is 0.38235294117647056
+Predicted program execution time: 1:06:25.552682
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 324045/1000000, FPS 166.
+average_episode_rewards is 13.45004
+win_rate is 0.25
+Predicted program execution time: 1:07:12.155606
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 325077/1000000, FPS 165.
+average_episode_rewards is 13.266187
+win_rate is 0.2631578947368421
+Predicted program execution time: 2:01:35.375611
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 326078/1000000, FPS 165.
+average_episode_rewards is 13.3854065
+win_rate is 0.21428571428571427
+Predicted program execution time: 1:47:09.909308
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 327080/1000000, FPS 165.
+average_episode_rewards is 14.16605
+win_rate is 0.32432432432432434
+Predicted program execution time: 1:34:28.307983
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 328098/1000000, FPS 165.
+average_episode_rewards is 13.91017
+win_rate is 0.2702702702702703
+Predicted program execution time: 1:24:51.521931
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 329101/1000000, FPS 166.
+average_episode_rewards is 14.095641
+win_rate is 0.29411764705882354
+Predicted program execution time: 1:17:36.039238
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 330113/1000000, FPS 166.
+average_episode_rewards is 14.267456
+win_rate is 0.3235294117647059
+Predicted program execution time: 1:12:34.226271
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 331134/1000000, FPS 166.
+average_episode_rewards is 15.344945
+win_rate is 0.47368421052631576
+Predicted program execution time: 1:09:14.156565
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 332163/1000000, FPS 166.
+average_episode_rewards is 15.129976
+win_rate is 0.4
+Predicted program execution time: 1:06:30.162461
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 333185/1000000, FPS 166.
+average_episode_rewards is 13.732214
+win_rate is 0.25
+Predicted program execution time: 1:05:57.179813
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 334198/1000000, FPS 166.
+average_episode_rewards is 14.170481
+win_rate is 0.30303030303030304
+Predicted program execution time: 1:04:59.004668
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 335224/1000000, FPS 166.
+average_episode_rewards is 14.716702
+win_rate is 0.3783783783783784
+Predicted program execution time: 1:05:08.418821
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 336243/1000000, FPS 166.
+average_episode_rewards is 15.169827
+win_rate is 0.3939393939393939
+Predicted program execution time: 1:04:34.017054
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 337248/1000000, FPS 166.
+average_episode_rewards is 15.589927
+win_rate is 0.4722222222222222
+Predicted program execution time: 1:04:41.300518
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 338273/1000000, FPS 166.
+average_episode_rewards is 15.483707
+win_rate is 0.47058823529411764
+Predicted program execution time: 1:04:58.416752
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 339286/1000000, FPS 166.
+average_episode_rewards is 15.366905
+win_rate is 0.4594594594594595
+Predicted program execution time: 1:05:18.516158
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 340294/1000000, FPS 166.
+average_episode_rewards is 14.269021
+win_rate is 0.30303030303030304
+Predicted program execution time: 1:04:20.071445
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 341295/1000000, FPS 166.
+average_episode_rewards is 15.922225
+win_rate is 0.5405405405405406
+Predicted program execution time: 1:04:41.829187
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 342298/1000000, FPS 166.
+average_episode_rewards is 13.812949
+win_rate is 0.23333333333333334
+Predicted program execution time: 1:04:29.516450
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 343298/1000000, FPS 166.
+average_episode_rewards is 14.050359
+win_rate is 0.3055555555555556
+Predicted program execution time: 1:04:13.519489
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 344300/1000000, FPS 166.
+average_episode_rewards is 15.234531
+win_rate is 0.5
+Predicted program execution time: 1:03:39.388566
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 345320/1000000, FPS 166.
+average_episode_rewards is 13.846271
+win_rate is 0.2894736842105263
+Predicted program execution time: 1:04:24.802007
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 346343/1000000, FPS 166.
+average_episode_rewards is 15.956834
+win_rate is 0.5
+Predicted program execution time: 1:03:32.124561
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 347351/1000000, FPS 166.
+average_episode_rewards is 14.931415
+win_rate is 0.43333333333333335
+Predicted program execution time: 1:03:00.689744
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 348358/1000000, FPS 166.
+average_episode_rewards is 14.761744
+win_rate is 0.38235294117647056
+Predicted program execution time: 1:03:16.507214
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 349385/1000000, FPS 166.
+average_episode_rewards is 13.99323
+win_rate is 0.29411764705882354
+Predicted program execution time: 1:03:30.639620
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 350395/1000000, FPS 166.
+average_episode_rewards is 15.553057
+win_rate is 0.46875
+Predicted program execution time: 1:02:30.853715
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 351411/1000000, FPS 166.
+average_episode_rewards is 15.811642
+win_rate is 0.48484848484848486
+Predicted program execution time: 1:02:12.723847
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 352423/1000000, FPS 166.
+average_episode_rewards is 14.858255
+win_rate is 0.40540540540540543
+Predicted program execution time: 1:02:25.334370
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 353426/1000000, FPS 166.
+average_episode_rewards is 14.223254
+win_rate is 0.2903225806451613
+Predicted program execution time: 1:02:16.139860
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 354449/1000000, FPS 166.
+average_episode_rewards is 15.698688
+win_rate is 0.5
+Predicted program execution time: 1:02:27.420240
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 355457/1000000, FPS 166.
+average_episode_rewards is 14.896364
+win_rate is 0.40540540540540543
+Predicted program execution time: 1:02:59.298986
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 356474/1000000, FPS 167.
+average_episode_rewards is 14.497643
+win_rate is 0.3448275862068966
+Predicted program execution time: 1:02:40.918904
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 357475/1000000, FPS 167.
+average_episode_rewards is 15.216046
+win_rate is 0.45454545454545453
+Predicted program execution time: 1:03:01.393009
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 358481/1000000, FPS 167.
+average_episode_rewards is 15.492125
+win_rate is 0.4594594594594595
+Predicted program execution time: 1:03:00.831520
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 359505/1000000, FPS 167.
+average_episode_rewards is 15.862886
+win_rate is 0.5294117647058824
+Predicted program execution time: 1:03:03.949663
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 360513/1000000, FPS 167.
+average_episode_rewards is 15.039356
+win_rate is 0.4411764705882353
+Predicted program execution time: 1:02:58.591222
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 361532/1000000, FPS 167.
+average_episode_rewards is 14.334018
+win_rate is 0.35714285714285715
+Predicted program execution time: 1:02:36.648171
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 362545/1000000, FPS 167.
+average_episode_rewards is 15.041027
+win_rate is 0.40540540540540543
+Predicted program execution time: 1:02:16.905491
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 363553/1000000, FPS 167.
+average_episode_rewards is 15.114554
+win_rate is 0.4230769230769231
+Predicted program execution time: 1:01:01.700096
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 364554/1000000, FPS 167.
+average_episode_rewards is 14.850719
+win_rate is 0.34375
+Predicted program execution time: 1:01:11.823126
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 365574/1000000, FPS 167.
+average_episode_rewards is 13.784172
+win_rate is 0.25
+Predicted program execution time: 1:01:53.947254
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 366593/1000000, FPS 167.
+average_episode_rewards is 14.621104
+win_rate is 0.3333333333333333
+Predicted program execution time: 1:01:33.712210
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 367597/1000000, FPS 167.
+average_episode_rewards is 14.868105
+win_rate is 0.3939393939393939
+Predicted program execution time: 1:01:22.671074
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 368597/1000000, FPS 167.
+average_episode_rewards is 13.50083
+win_rate is 0.19230769230769232
+Predicted program execution time: 1:01:05.168477
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 369616/1000000, FPS 167.
+average_episode_rewards is 16.139652
+win_rate is 0.5588235294117647
+Predicted program execution time: 1:01:16.576697
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 370642/1000000, FPS 167.
+average_episode_rewards is 13.9340105
+win_rate is 0.27586206896551724
+Predicted program execution time: 1:00:07.317612
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 371664/1000000, FPS 167.
+average_episode_rewards is 16.345324
+win_rate is 0.5428571428571428
+Predicted program execution time: 0:59:30.515655
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 372681/1000000, FPS 167.
+average_episode_rewards is 15.492904
+win_rate is 0.4864864864864865
+Predicted program execution time: 1:00:10.251037
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 373686/1000000, FPS 167.
+average_episode_rewards is 15.424461
+win_rate is 0.45714285714285713
+Predicted program execution time: 0:59:59.070257
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 374691/1000000, FPS 167.
+average_episode_rewards is 14.011772
+win_rate is 0.30303030303030304
+Predicted program execution time: 0:59:50.114200
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 375702/1000000, FPS 167.
+average_episode_rewards is 12.859989
+win_rate is 0.23076923076923078
+Predicted program execution time: 0:59:14.514784
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 376755/1000000, FPS 167.
+average_episode_rewards is 13.4757185
+win_rate is 0.25
+Predicted program execution time: 0:59:35.324789
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 377764/1000000, FPS 167.
+average_episode_rewards is 14.448659
+win_rate is 0.36363636363636365
+Predicted program execution time: 0:59:37.074630
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 378768/1000000, FPS 167.
+average_episode_rewards is 14.864616
+win_rate is 0.3939393939393939
+Predicted program execution time: 0:59:35.325783
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 379788/1000000, FPS 167.
+average_episode_rewards is 14.869235
+win_rate is 0.4117647058823529
+Predicted program execution time: 0:59:48.383619
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 380797/1000000, FPS 167.
+average_episode_rewards is 15.570679
+win_rate is 0.4864864864864865
+Predicted program execution time: 1:00:55.906641
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 381808/1000000, FPS 167.
+average_episode_rewards is 14.406263
+win_rate is 0.3235294117647059
+Predicted program execution time: 1:01:07.342137
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 382823/1000000, FPS 167.
+average_episode_rewards is 13.534224
+win_rate is 0.22857142857142856
+Predicted program execution time: 1:01:20.813389
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 383837/1000000, FPS 167.
+average_episode_rewards is 14.567373
+win_rate is 0.3783783783783784
+Predicted program execution time: 1:01:09.512292
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 384860/1000000, FPS 167.
+average_episode_rewards is 13.724347
+win_rate is 0.2631578947368421
+Predicted program execution time: 1:01:22.793938
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 385868/1000000, FPS 167.
+average_episode_rewards is 15.146556
+win_rate is 0.4
+Predicted program execution time: 1:01:09.535418
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 386868/1000000, FPS 167.
+average_episode_rewards is 16.978416
+win_rate is 0.6285714285714286
+Predicted program execution time: 1:00:26.943659
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 387911/1000000, FPS 168.
+average_episode_rewards is 13.553957
+win_rate is 0.28125
+Predicted program execution time: 1:00:01.783013
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 388915/1000000, FPS 168.
+average_episode_rewards is 15.216917
+win_rate is 0.42424242424242425
+Predicted program execution time: 0:59:57.680928
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 389933/1000000, FPS 167.
+average_episode_rewards is 15.374685
+win_rate is 0.43243243243243246
+Predicted program execution time: 1:18:24.092266
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 390942/1000000, FPS 167.
+average_episode_rewards is 15.050361
+win_rate is 0.42857142857142855
+Predicted program execution time: 1:12:19.666919
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 391963/1000000, FPS 167.
+average_episode_rewards is 14.694926
+win_rate is 0.3783783783783784
+Predicted program execution time: 1:07:33.928074
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 392979/1000000, FPS 167.
+average_episode_rewards is 15.777401
+win_rate is 0.5
+Predicted program execution time: 1:03:19.211495
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 393986/1000000, FPS 167.
+average_episode_rewards is 14.777413
+win_rate is 0.3939393939393939
+Predicted program execution time: 1:01:44.379794
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 394993/1000000, FPS 167.
+average_episode_rewards is 15.652279
+win_rate is 0.4722222222222222
+Predicted program execution time: 0:59:30.397132
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 396009/1000000, FPS 167.
+average_episode_rewards is 14.678876
+win_rate is 0.30303030303030304
+Predicted program execution time: 0:58:31.377425
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 397029/1000000, FPS 167.
+average_episode_rewards is 14.260508
+win_rate is 0.3157894736842105
+Predicted program execution time: 0:57:17.625642
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 398045/1000000, FPS 167.
+average_episode_rewards is 14.503596
+win_rate is 0.35135135135135137
+Predicted program execution time: 0:57:34.683819
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 399064/1000000, FPS 168.
+average_episode_rewards is 14.329191
+win_rate is 0.3333333333333333
+Predicted program execution time: 0:57:28.095875
+================================================================================
+8m_vs_9m_400049_q_network.pt file saves complete
+8m_vs_9m_400049_mixer.pt file saves complete
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 400075/1000000, FPS 168.
+average_episode_rewards is 15.129744
+win_rate is 0.41379310344827586
+Predicted program execution time: 0:56:41.013331
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 401082/1000000, FPS 168.
+average_episode_rewards is 15.302353
+win_rate is 0.43243243243243246
+Predicted program execution time: 0:56:21.105528
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 402097/1000000, FPS 168.
+average_episode_rewards is 16.440117
+win_rate is 0.5882352941176471
+Predicted program execution time: 0:56:43.835042
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 403097/1000000, FPS 168.
+average_episode_rewards is 14.743146
+win_rate is 0.35135135135135137
+Predicted program execution time: 0:56:26.281830
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 404115/1000000, FPS 168.
+average_episode_rewards is 13.137923
+win_rate is 0.2
+Predicted program execution time: 0:57:04.805551
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 405133/1000000, FPS 168.
+average_episode_rewards is 15.122302
+win_rate is 0.4411764705882353
+Predicted program execution time: 0:56:53.671340
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 406133/1000000, FPS 168.
+average_episode_rewards is 15.339728
+win_rate is 0.4444444444444444
+Predicted program execution time: 0:55:37.570237
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 407151/1000000, FPS 168.
+average_episode_rewards is 15.453238
+win_rate is 0.42424242424242425
+Predicted program execution time: 0:54:45.309106
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 408227/1000000, FPS 168.
+average_episode_rewards is 14.28617
+win_rate is 0.3611111111111111
+Predicted program execution time: 0:55:27.713686
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 409274/1000000, FPS 168.
+average_episode_rewards is 14.68962
+win_rate is 0.42857142857142855
+Predicted program execution time: 0:55:14.480999
+================================================================================
+Env StarCraft2 Map 8m_vs_9m Algo vdn Exp use_prev_act_True__vdn_40 runs total num timesteps 410303/1000000, FPS 168.
+average_episode_rewards is 15.443904
+win_rate is 0.4594594594594595
+Predicted program execution time: 0:54:32.016208

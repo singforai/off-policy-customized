@@ -1,0 +1,36 @@
+[48]
+double Q learning will be used
+warm up...
+warmup average episode rewards: 1.534246563911438
+Env StarCraft2 Map 3m Algo vdn Exp use_prev_act_vdn runs total num timesteps 865/100000, FPS 126.
+<class 'torch.Tensor'> =================================
+<class 'torch.Tensor'> =================================
+<class 'torch.Tensor'> =================================
+<class 'torch.Tensor'> =================================
+Env StarCraft2 Map 3m Algo vdn Exp use_prev_act_vdn runs total num timesteps 1020/100000, FPS 138.
+Traceback (most recent call last):
+  File "/home/uosai/바탕화면/off-policy/offpolicy/scripts/train/train_smac.py", line 212, in <module>
+    main(sys.argv[1:])
+  File "/home/uosai/바탕화면/off-policy/offpolicy/scripts/train/train_smac.py", line 195, in main
+    total_num_steps = runner.run() #base_runner에서 run함수를 호출
+  File "/home/uosai/바탕화면/off-policy/offpolicy/runner/rnn/base_runner.py", line 203, in run
+    env_info = self.collecter(explore=True, training_episode=True, warmup=False)
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/uosai/바탕화면/off-policy/offpolicy/runner/rnn/smac_runner.py", line 90, in collect_rollout
+    acts_batch, rnn_states_batch, _ = policy.get_actions(obs_batch,
+  File "/home/uosai/바탕화면/off-policy/offpolicy/algorithms/qmix/algorithm/QMixPolicy.py", line 107, in get_actions
+    onehot_actions, greedy_Qs = self.actions_from_q(q_values_out, available_actions=available_actions, explore=explore, t_env=t_env)
+  File "/home/uosai/바탕화면/off-policy/offpolicy/algorithms/qmix/algorithm/QMixPolicy.py", line 172, in actions_from_q
+    random_actions = Categorical(logits=logits).sample().numpy()
+  File "/home/uosai/바탕화면/miniconda3/envs/marl/lib/python3.9/site-packages/torch/distributions/categorical.py", line 132, in sample
+    samples_2d = torch.multinomial(probs_2d, sample_shape.numel(), True).T
+KeyboardInterrupt
+average_episode_rewards is 1.6438355
+win_rate is 0.0
+Predicted program execution time: 0:00:15.160465
+================================================================================
+<class 'torch.Tensor'> =================================
+<class 'torch.Tensor'> =================================
+<class 'torch.Tensor'> =================================
+<class 'torch.Tensor'> =================================

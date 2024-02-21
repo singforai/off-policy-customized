@@ -1,11 +1,13 @@
 import sys
 import os
+
 import numpy as np
 from pathlib import Path
 import wandb
 import socket
 import setproctitle
 import torch
+
 from offpolicy.config import get_config #parser(hyper-parameter)를 정의 및 저장
 from offpolicy.utils.util import get_cent_act_dim, get_dim_from_space # 각 dim을 return
 from offpolicy.envs.starcraft2.StarCraft2_Env import StarCraft2Env #starcraft2 env를 가져옴
@@ -72,7 +74,6 @@ def parse_args(args, parser):
 def main(args):
     parser = get_config() #config.py에 저장된 모든 argparse 변수를 선언한다. 
     all_args = parse_args(args, parser) 
-
     # cuda and # threads
     if all_args.cuda and torch.cuda.is_available():
         device = torch.device("cuda:0")
@@ -91,6 +92,7 @@ def main(args):
         torch.set_num_threads(all_args.n_training_threads)
 
     # setup file to output tensorboard, hyperparameters, and saved models
+
     run_dir = Path(os.path.split(os.path.dirname(os.path.abspath(__file__)))[
                    0] + "/results") / all_args.env_name / all_args.map_name / all_args.algorithm_name / all_args.experiment_name
     '''
@@ -184,10 +186,13 @@ def main(args):
               "use_same_share_obs": all_args.use_same_share_obs,
               "use_available_actions": all_args.use_available_actions}
 
-    total_num_steps = 0
-    runner = Runner(config=config) #Env StarCraft2 Map 3m Algo vdn Exp check runs total num timesteps 902/1000000, FPS 118는 여기서 출력함
+    runner = Runner(config=config) 
+    
+    total_num_steps=0
+    # 전체 프로그램 실행 시간 예측
+    
     while total_num_steps < all_args.num_env_steps:
-        total_num_steps = runner.run() #base_runner에서 run함수를 호출 
+        total_num_steps = runner.run() #base_runner에서 run함수를 호출
 
     env.close()
     if all_args.use_eval and (eval_env is not env):
@@ -198,7 +203,6 @@ def main(args):
     else:
         runner.writter.export_scalars_to_json(str(runner.log_dir + '/summary.json'))
         runner.writter.close()
-
 
 if __name__ == "__main__":
     '''
